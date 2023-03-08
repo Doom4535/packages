@@ -1,0 +1,322 @@
+Package: alwaysonline
+Version: 1.2.0-20230824
+Depends: libc
+Source: /home/runner/work/packages/packages/packages/openwrt-alwaysonline
+SourceName: alwaysonline
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Require-User: alwaysonline:alwaysonline
+SourceDateEpoch: 1693649549
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 1683865
+Filename: alwaysonline_1.2.0-20230824_aarch64_generic.ipk
+Size: 1679979
+SHA256sum: 9422f26d3a67273a4c687510f2799d29ddc77265b55169624f4fa05d718d572f
+Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: go-stun
+Version: 0.1.4-8
+Depends: libc
+Source: /home/runner/work/packages/packages/packages/openwrt-go-stun
+SourceName: go-stun
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693627735
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 769650
+Filename: go-stun_0.1.4-8_aarch64_generic.ipk
+Size: 769186
+SHA256sum: b3c6f2e17c8beb1a72c94f981af8e6260809bbbc091dc9cc5ceb60c23350fe2f
+Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
+ RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
+ RFC 5389: Session Traversal Utilities for NAT (STUN)
+
+Package: internet-detector
+Version: 1.0-0
+Depends: libc, lua, luaposix, libuci-lua
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-internet-detector/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1690287652
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 10391
+Filename: internet-detector_1.0-0_all.ipk
+Size: 11268
+SHA256sum: c401a822685bdc271bd12822ee2d115244b2359af97e7650f6377cf817510e84
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
+
+Package: natmapt-client-script-transmission
+Version: 20230829-2
+Depends: libc, natmapt
+Provides: natmapt-client-scripts
+Source: /home/runner/work/packages/packages/packages/openwrt-natmapt
+SourceName: natmapt-client-script-transmission
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1693397181
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: all
+Installed-Size: 634
+Filename: natmapt-client-script-transmission_20230829-2_all.ipk
+Size: 1440
+SHA256sum: 48f983b2603a39c0407c63cbff44d1ef54809a57e0071e976339175ad2f02056
+Description:  NATMap client scripts (Transmission)
+
+Package: natmapt
+Version: 20230829-2
+Depends: libc, curl, jsonfilter
+Source: /home/runner/work/packages/packages/packages/openwrt-natmapt
+SourceName: natmapt
+License: MIT
+LicenseFiles: License
+Section: net
+SourceDateEpoch: 1693397181
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
+Architecture: aarch64_generic
+Installed-Size: 24511
+Filename: natmapt_20230829-2_aarch64_generic.ipk
+Size: 25230
+SHA256sum: 6483702c271832635c2a8affb14e7ca219577d98778b84c75beb584d0d6e7e2f
+Description:  TCP/UDP port mapping tool for full cone NAT
+
+Package: natter-ddns-script-cloudflare
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-ddns-scripts
+Source: /home/runner/work/packages/packages/packages/openwrt-Natter
+SourceName: natter-ddns-script-cloudflare
+License: GPL-3
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693317336
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 1131
+Filename: natter-ddns-script-cloudflare_0.9-20230828_all.ipk
+Size: 1925
+SHA256sum: 15b4c08199d793d0a00bcdf38bf9a8bde34ceea75428203f3ab70d1274740c76
+Description:  Natter ddns scripts (cloudflare)
+
+Package: natter-notify-script-pushbullet
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-notify-scripts
+Source: /home/runner/work/packages/packages/packages/openwrt-Natter
+SourceName: natter-notify-script-pushbullet
+License: GPL-3
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693317336
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 490
+Filename: natter-notify-script-pushbullet_0.9-20230828_all.ipk
+Size: 1277
+SHA256sum: 3f67c879433d15ea297d864cedffc0cb718194c1cd5e93703e9e944e3bc7599a
+Description:  Natter notify scripts (pushbullet)
+
+Package: natter-notify-script-telegram
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-notify-scripts
+Source: /home/runner/work/packages/packages/packages/openwrt-Natter
+SourceName: natter-notify-script-telegram
+License: GPL-3
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693317336
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 508
+Filename: natter-notify-script-telegram_0.9-20230828_all.ipk
+Size: 1288
+SHA256sum: ba6a3ec8b3050dbf573dfc1b5dd6309cdbf4f06f5473536e2b16fce8190e370b
+Description:  Natter notify scripts (telegram)
+
+Package: natter
+Version: 0.9-20230828
+Depends: libc, python3-light, bash, coreutils-base64, curl, jsonfilter, natter-notify-script-telegram, natter-ddns-script-cloudflare
+Source: /home/runner/work/packages/packages/packages/openwrt-Natter
+SourceName: natter
+License: GPL-3
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693317336
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 18818
+Filename: natter_0.9-20230828_all.ipk
+Size: 20075
+SHA256sum: 224f37da5b053825b526cf69cf9ba7c2e5b7d3feea49eadb8f661ff37ffbed47
+Description:  Open Port under FullCone NAT (NAT 1)
+
+Package: netdata-ssl
+Version: 1.30.1-2
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5, libopenssl1.1
+Source: /home/runner/work/packages/packages/packages/openwrt-netdata-ssl
+SourceName: netdata-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1683469043
+CPE-ID: cpe:/a:my-netdata:netdata
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
+Architecture: aarch64_generic
+Installed-Size: 2196383
+Filename: netdata-ssl_1.30.1-2_aarch64_generic.ipk
+Size: 2194916
+SHA256sum: b4e2580d1b8628bd29cfe6eaef6d78da53e310d291cb92fb4ae0ed28ac753fa7
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: pcap-dnsproxy
+Version: 0.4.9.13-70a40bb
+Depends: libc, libpthread, libstdcpp6, libevent2-core7, libpcap1, libsodium, libopenssl1.1
+Source: /home/runner/work/packages/packages/packages/openwrt-Pcap_DNSProxy
+SourceName: pcap-dnsproxy
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1674646756
+Maintainer: Chengr28 <chengr28@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 346172
+Filename: pcap-dnsproxy_0.4.9.13-70a40bb_aarch64_generic.ipk
+Size: 345445
+SHA256sum: 22f670c316cf4f15744739640131fcac96c4735f926b8013922770a5e1239c0e
+Description:  A local DNS server based on LibPcap
+
+Package: php-nginx
+Version: 20230426
+Depends: libc, luci-nginx, luci-ssl-nginx
+Source: /home/runner/work/packages/packages/packages/openwrt-php-nginx
+SourceName: php-nginx
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1683823397
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 853
+Filename: php-nginx_20230426_all.ipk
+Size: 1672
+SHA256sum: 7c1b6541fecfa9489937d8744e389e4bed8af5550bc0d59c89a7fa04ec0398a2
+Description:  PHP with Nginx as Webserver
+
+Package: rgmac
+Version: 1.4.6-20230412
+Depends: libc, bash, curl, coreutils-cksum, getopt
+Source: /home/runner/work/packages/packages/packages/openwrt-rgmac
+SourceName: rgmac
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1683823339
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 3631
+Filename: rgmac_1.4.6-20230412_all.ipk
+Size: 4465
+SHA256sum: bacea8b0a91645471ec0f1ea5ccbf698b7e6c3c3ce6389120155502299306c4a
+Description:  A random MAC address generator
+
+Package: stuntman-client
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+Source: /home/runner/work/packages/packages/packages/openwrt-stuntman
+SourceName: stuntman-client
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693386064
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 37646
+Filename: stuntman-client_1.2.16-20230829_aarch64_generic.ipk
+Size: 38571
+SHA256sum: d78c860baea6ecb16351a6203c9ec7a87d13382d8b60619a58e5d266c5810505
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: stuntman-server
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+Source: /home/runner/work/packages/packages/packages/openwrt-stuntman
+SourceName: stuntman-server
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693386064
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 85127
+Filename: stuntman-server_1.2.16-20230829_aarch64_generic.ipk
+Size: 85951
+SHA256sum: 0693487dafbac5bb44b1163d16a77b97d3e9381376513b046de0cbf98f87ce30
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: stuntman-testcode
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+Source: /home/runner/work/packages/packages/packages/openwrt-stuntman
+SourceName: stuntman-testcode
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1693386064
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 66385
+Filename: stuntman-testcode_1.2.16-20230829_aarch64_generic.ipk
+Size: 67211
+SHA256sum: ac8768a25874962346c4db2e73c557015f8cecdb7411246f4fa12bbcc521ae92
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: uci-alwaysonline-nginx
+Version: 1.2.0-20230824
+Depends: libc, alwaysonline, luci-app-alwaysonline, nginx
+Provides: uci-alwaysonline
+Source: /home/runner/work/packages/packages/packages/openwrt-alwaysonline
+SourceName: uci-alwaysonline-nginx
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Require-User: alwaysonline:alwaysonline
+SourceDateEpoch: 1693649549
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 2027
+Filename: uci-alwaysonline-nginx_1.2.0-20230824_aarch64_generic.ipk
+Size: 2878
+SHA256sum: 9422faabdc46339a52464b71ca67b04ef99357b15ca7481aa193ce0706a76541
+Description:  This variant of the alwaysonline package is based on the nginx.
+
+Package: uci-alwaysonline
+Version: 1.2.0-20230824
+Depends: libc, alwaysonline, luci-app-alwaysonline
+Conflicts: uci-alwaysonline-nginx
+Source: /home/runner/work/packages/packages/packages/openwrt-alwaysonline
+SourceName: uci-alwaysonline
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Require-User: alwaysonline:alwaysonline
+SourceDateEpoch: 1693649549
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 1893
+Filename: uci-alwaysonline_1.2.0-20230824_aarch64_generic.ipk
+Size: 2834
+SHA256sum: c618a64678875dadfc90c6a32ae3d12309b1c637aca61a4fa198455fbd0af64e
+Description:  This variant of the alwaysonline package is based on the iptables/nftables.
+

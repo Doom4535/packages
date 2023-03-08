@@ -1,0 +1,230 @@
+Package: alwaysonline
+Version: 1.2.0-20230824
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1792814
+Filename: alwaysonline_1.2.0-20230824_aarch64_cortex-a72.ipk
+Size: 1789680
+SHA256sum: 2b5a73276f83bb59c54357b96f10f7ae1246404513b3b06d41d6cefbe68f080e
+Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: go-stun
+Version: 0.1.4-8
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 804799
+Filename: go-stun_0.1.4-8_aarch64_cortex-a72.ipk
+Size: 804750
+SHA256sum: d17f1a7bdbcfec8ff2d3a56f6e02e506c0ac17c5c83530565d563e61b9ecc185
+Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
+ RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
+ RFC 5389: Session Traversal Utilities for NAT (STUN)
+
+Package: internet-detector
+Version: 1.0-0
+Depends: libc, lua, luaposix, libuci-lua
+Section: net
+Architecture: all
+Installed-Size: 10391
+Filename: internet-detector_1.0-0_all.ipk
+Size: 11268
+SHA256sum: c401a822685bdc271bd12822ee2d115244b2359af97e7650f6377cf817510e84
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
+
+Package: natmapt-client-script-transmission
+Version: 20230829-2
+Depends: libc, natmapt
+Provides: natmapt-client-scripts
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 634
+Filename: natmapt-client-script-transmission_20230829-2_all.ipk
+Size: 1440
+SHA256sum: 48f983b2603a39c0407c63cbff44d1ef54809a57e0071e976339175ad2f02056
+Description:  NATMap client scripts (Transmission)
+
+Package: natmapt
+Version: 20230829-2
+Depends: libc, curl, jsonfilter
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 24369
+Filename: natmapt_20230829-2_aarch64_cortex-a72.ipk
+Size: 25072
+SHA256sum: d2e828be037fb15430ef0f3a6461bd850b6561c689789f29e8b9faa75ec812b8
+Description:  TCP/UDP port mapping tool for full cone NAT
+
+Package: natter-ddns-script-cloudflare
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-ddns-scripts
+License: GPL-3
+Section: net
+Architecture: all
+Installed-Size: 1131
+Filename: natter-ddns-script-cloudflare_0.9-20230828_all.ipk
+Size: 1925
+SHA256sum: 15b4c08199d793d0a00bcdf38bf9a8bde34ceea75428203f3ab70d1274740c76
+Description:  Natter ddns scripts (cloudflare)
+
+Package: natter-notify-script-pushbullet
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-notify-scripts
+License: GPL-3
+Section: net
+Architecture: all
+Installed-Size: 490
+Filename: natter-notify-script-pushbullet_0.9-20230828_all.ipk
+Size: 1277
+SHA256sum: 3f67c879433d15ea297d864cedffc0cb718194c1cd5e93703e9e944e3bc7599a
+Description:  Natter notify scripts (pushbullet)
+
+Package: natter-notify-script-telegram
+Version: 0.9-20230828
+Depends: libc, natter
+Provides: natter-notify-scripts
+License: GPL-3
+Section: net
+Architecture: all
+Installed-Size: 508
+Filename: natter-notify-script-telegram_0.9-20230828_all.ipk
+Size: 1288
+SHA256sum: ba6a3ec8b3050dbf573dfc1b5dd6309cdbf4f06f5473536e2b16fce8190e370b
+Description:  Natter notify scripts (telegram)
+
+Package: natter
+Version: 0.9-20230828
+Depends: libc, python3-light, bash, coreutils-base64, curl, jsonfilter, natter-notify-script-telegram, natter-ddns-script-cloudflare
+License: GPL-3
+Section: net
+Architecture: all
+Installed-Size: 18818
+Filename: natter_0.9-20230828_all.ipk
+Size: 20075
+SHA256sum: 224f37da5b053825b526cf69cf9ba7c2e5b7d3feea49eadb8f661ff37ffbed47
+Description:  Open Port under FullCone NAT (NAT 1)
+
+Package: netdata-ssl
+Version: 1.33.1-1
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5, libopenssl1.1
+License: GPL-3.0-or-later
+Section: admin
+CPE-ID: cpe:/a:my-netdata:netdata
+Architecture: aarch64_cortex-a72
+Installed-Size: 8028814
+Filename: netdata-ssl_1.33.1-1_aarch64_cortex-a72.ipk
+Size: 7997549
+SHA256sum: 1a4821a39509a1bc82ca5e1f26abf65425de71e5e7f09f38abe33c8a1a60b49c
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: pcap-dnsproxy
+Version: 0.4.9.13-70a40bb
+Depends: libc, libpthread, libstdcpp6, libevent2-core7, libpcap1, libsodium, libopenssl1.1
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 364659
+Filename: pcap-dnsproxy_0.4.9.13-70a40bb_aarch64_cortex-a72.ipk
+Size: 363897
+SHA256sum: 46e118e04d7e212498cabb80c981f63291ce82c0c1339700858412931d806723
+Description:  A local DNS server based on LibPcap
+
+Package: php-nginx
+Version: 20230426
+Depends: libc, luci-nginx, luci-ssl-nginx
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 853
+Filename: php-nginx_20230426_all.ipk
+Size: 1672
+SHA256sum: 7c1b6541fecfa9489937d8744e389e4bed8af5550bc0d59c89a7fa04ec0398a2
+Description:  PHP with Nginx as Webserver
+
+Package: rgmac
+Version: 1.4.6-20230412
+Depends: libc, bash, curl, coreutils-cksum, getopt
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 3631
+Filename: rgmac_1.4.6-20230412_all.ipk
+Size: 4465
+SHA256sum: bacea8b0a91645471ec0f1ea5ccbf698b7e6c3c3ce6389120155502299306c4a
+Description:  A random MAC address generator
+
+Package: stuntman-client
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 36566
+Filename: stuntman-client_1.2.16-20230829_aarch64_cortex-a72.ipk
+Size: 37434
+SHA256sum: 15803e67b2197aef217bd940110d89b22d5289a9b4a2c66ba3d0afabb190b813
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: stuntman-server
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 86582
+Filename: stuntman-server_1.2.16-20230829_aarch64_cortex-a72.ipk
+Size: 87318
+SHA256sum: f548c87b4890c9d78f1dfe0e5df5b25863f7f7640d034444a371fbc27641db53
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: stuntman-testcode
+Version: 1.2.16-20230829
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 61665
+Filename: stuntman-testcode_1.2.16-20230829_aarch64_cortex-a72.ipk
+Size: 62558
+SHA256sum: 9d9478704048e0a623f5536cf053312d1e99cc4aa54505f7f3059bf11023983a
+Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
+
+Package: uci-alwaysonline-nginx
+Version: 1.2.0-20230824
+Depends: libc, alwaysonline, luci-app-alwaysonline, nginx
+Provides: uci-alwaysonline
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2027
+Filename: uci-alwaysonline-nginx_1.2.0-20230824_aarch64_cortex-a72.ipk
+Size: 2877
+SHA256sum: a4a171ca6dd1c5edd41357709f9b503d9ae6fd159553805e08a5b41f2a61dcd7
+Description:  This variant of the alwaysonline package is based on the nginx.
+
+Package: uci-alwaysonline
+Version: 1.2.0-20230824
+Depends: libc, alwaysonline, luci-app-alwaysonline
+Conflicts: uci-alwaysonline-nginx
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1893
+Filename: uci-alwaysonline_1.2.0-20230824_aarch64_cortex-a72.ipk
+Size: 2835
+SHA256sum: 6783de613b6fa3aaea17de6d57700284a6d8e41862baa62eeff61a30e6524391
+Description:  This variant of the alwaysonline package is based on the iptables/nftables.
+

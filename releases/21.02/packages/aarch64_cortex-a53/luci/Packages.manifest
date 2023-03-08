@@ -1,0 +1,1120 @@
+Package: luci-app-alwaysonline
+Version: 20230521
+Depends: libc
+Source: /home/runner/work/packages/packages/muink/luci-app-alwaysonline
+SourceName: luci-app-alwaysonline
+Section: luci
+SourceDateEpoch: 1684646877
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1595
+Filename: luci-app-alwaysonline_20230521_all.ipk
+Size: 2430
+SHA256sum: b4c1a3185749dcf00f546b97b57262c5713f1282134ba13a39147b282b63688e
+Description:  Hijack/bypass Windows NCSI and iOS portal detection
+
+Package: luci-app-argon-config
+Version: 1.0
+Depends: libc, luci-theme-argon
+Source: /home/runner/work/packages/packages/jerrykuku/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1686813372
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3120
+Filename: luci-app-argon-config_1.0_all.ipk
+Size: 3995
+SHA256sum: 19456fa9c9d46d3a61bc09e2648c397b9a53a8fbe96e67f37be4868686133a0c
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-app-change-mac
+Version: 0.3.9
+Depends: libc, bash, rgmac, getopt
+Source: /home/runner/work/packages/packages/muink/luci-app-change-mac
+SourceName: luci-app-change-mac
+Section: luci
+SourceDateEpoch: 1683823960
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4916
+Filename: luci-app-change-mac_0.3.9_all.ipk
+Size: 5808
+SHA256sum: 70e38e7e1f7948680dd0c173cc83ea0d647b0f8941a433ab2a5feb3802cd2ee3
+Description:  Assign a random MAC address to the designated interface on every time boot.
+
+Package: luci-app-cpu-perf
+Version: 0.4-0
+Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-perf
+SourceName: luci-app-cpu-perf
+License: MIT
+Section: luci
+SourceDateEpoch: 1686402606
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6501
+Filename: luci-app-cpu-perf_0.4-0_all.ipk
+Size: 7413
+SHA256sum: 3fdecb54a05dd1f4177b24df75631597b6896907b09918468548ad1bdd679685
+Description:  CPU performance information and management for LuCI
+
+Package: luci-app-cpu-status-mini
+Version: 0.1-5
+Depends: libc, luci-mod-admin-full
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-status-mini
+SourceName: luci-app-cpu-status-mini
+License: MIT
+Section: luci
+SourceDateEpoch: 1682344873
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1065
+Filename: luci-app-cpu-status-mini_0.1-5_all.ipk
+Size: 1946
+SHA256sum: 9057967aa6b7e98dd1de1307b5525bd6a5c3ee6ee53e0aea976d198eec5636c3
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-cpu-status
+Version: 0.4-2
+Depends: libc
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1682345118
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1425
+Filename: luci-app-cpu-status_0.4-2_all.ipk
+Size: 2263
+SHA256sum: c3b6895dce2372a5f57b8f773f540513caaded9ab31a9b225245ac91a540740c
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-diskman
+Version: v0.2.13
+Depends: libc, luci-compat, luci-lib-ipkg, e2fsprogs, parted, smartmontools, blkid, kmod-fs-vfat, dosfstools, kmod-fs-msdos, kmod-nls-base, kmod-nls-utf8, kmod-nls-cp932, kmod-nls-cp936, kmod-nls-cp950, kmod-fs-exfat, exfat-mkfs, exfat-fsck, kmod-fs-ntfs, kmod-fs-btrfs, ntfs-3g-utils, btrfs-progs, lsblk
+Source: /home/runner/work/packages/packages/luci-app-diskman/applications/luci-app-diskman
+SourceName: luci-app-diskman
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1693052749
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20594
+Filename: luci-app-diskman_v0.2.13_all.ipk
+Size: 21586
+SHA256sum: 2e42b955d944a58de9e882526a2428cb14113519b9a6e1ba27ede53763f5a9ec
+Description:  Disk Manager interface for LuCI
+
+Package: luci-app-disks-info
+Version: 0.4-2
+Depends: libc, fdisk, smartmontools, smartmontools-drivedb
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-disks-info
+SourceName: luci-app-disks-info
+License: MIT
+Section: luci
+SourceDateEpoch: 1663627469
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6609
+Filename: luci-app-disks-info_0.4-2_all.ipk
+Size: 7531
+SHA256sum: 93c6bf9306ffee50851e84411e437d96ead1cf9e3b37d7749acac52b1f273775
+Description:  Information about connected disk devices (partitions, filesystems, SMART).
+
+Package: luci-app-interfaces-statistics
+Version: 0.4-4
+Depends: libc
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-interfaces-statistics
+SourceName: luci-app-interfaces-statistics
+License: MIT
+Section: luci
+SourceDateEpoch: 1645717652
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2083
+Filename: luci-app-interfaces-statistics_0.4-4_all.ipk
+Size: 2918
+SHA256sum: 718b4850a57d77535cb284b522e98347ae4bae0a5e2cbc664aebd657e0deaa7b
+Description:  Network interfaces statistics
+
+Package: luci-app-internet-detector
+Version: 1.0-0
+Depends: libc, internet-detector
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1690287652
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7686
+Filename: luci-app-internet-detector_1.0-0_all.ipk
+Size: 8531
+SHA256sum: 4f27f19b7ffa4d9f8e2403bd13152080e2ab038c1990459a1d3b15ff763a9f20
+Description:  LuCI support for internet-detector
+
+Package: luci-app-log
+Version: 0.6-2
+Depends: libc
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-log
+SourceName: luci-app-log
+License: MIT
+Section: luci
+SourceDateEpoch: 1683119583
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5772
+Filename: luci-app-log_0.6-2_all.ipk
+Size: 6621
+SHA256sum: 95567bcd4483d52f6c691ba1e4095e1452d101b5ddfbf930137566327136200c
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
+Package: luci-app-natmapt
+Version: 20230828
+Depends: libc, natmapt, coreutils-timeout
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-app-natmapt
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4664
+Filename: luci-app-natmapt_20230828_all.ipk
+Size: 5528
+SHA256sum: 0f4063fb21ea6aef7a9bd21c279d49ea12c099b811733fdb24c1f00c23fcce55
+Description:  TCP/UDP port mapping for full cone NAT
+
+Package: luci-app-natter
+Version: 0.9-20230704
+Depends: libc, natter
+Source: /home/runner/work/packages/packages/muink/luci-app-natter
+SourceName: luci-app-natter
+Section: luci
+SourceDateEpoch: 1688200975
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5156
+Filename: luci-app-natter_0.9-20230704_all.ipk
+Size: 5966
+SHA256sum: b603a6d68be48ab238ee4e4a11163f645c59f6a4a35f8f961a7e29341713c29a
+Description:  Open Port under FullCone NAT (NAT 1)
+
+Package: luci-app-netdata
+Version: 20230507
+Depends: libc, netdata-ssl, openssl-util
+Source: /home/runner/work/packages/packages/muink/luci-app-netdata
+SourceName: luci-app-netdata
+Section: luci
+SourceDateEpoch: 1683823859
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2694
+Filename: luci-app-netdata_20230507_all.ipk
+Size: 3548
+SHA256sum: ecd0fde5c40068c7fb32ff99b3e0f73de8f9d129ba2ffef5756a4a9783b96809
+Description:  Real-time performance monitoring
+
+Package: luci-app-netspeedtest
+Version: 20230505
+Depends: libc, iperf3, librespeed-go, python3-speedtest-cli, ca-certificates
+Source: /home/runner/work/packages/packages/muink/luci-app-netspeedtest
+SourceName: luci-app-netspeedtest
+Section: luci
+SourceDateEpoch: 1683823769
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5179
+Filename: luci-app-netspeedtest_20230505_all.ipk
+Size: 6042
+SHA256sum: ffb673e362115f1bc45908a94abd06c64d0b8a40dd188f40e3561e83b581ad8c
+Description:  Test Net speed
+
+Package: luci-app-packagesync
+Version: 20230520
+Depends: libc, blockd, curl, getopt, rsync, bash, jsonfilter, ncat-full
+Source: /home/runner/work/packages/packages/muink/luci-app-packagesync
+SourceName: luci-app-packagesync
+Section: luci
+SourceDateEpoch: 1684572376
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10207
+Filename: luci-app-packagesync_20230520_all.ipk
+Size: 11148
+SHA256sum: 4e51307620c830fda8f4ed580b3dd21a9cf5b238344e08a668a8a7ca7b6c70f0
+Description:  Used to build a local mirror feeds source on the router
+
+Package: luci-app-pcap-dnsproxy
+Version: 0.4.9.13-20230711
+Depends: libc, luci-compat, pcap-dnsproxy, bash, curl, unzip, coreutils-stat
+Source: /home/runner/work/packages/packages/muink/luci-app-pcap-dnsproxy
+SourceName: luci-app-pcap-dnsproxy
+Section: luci
+SourceDateEpoch: 1689159639
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30185
+Filename: luci-app-pcap-dnsproxy_0.4.9.13-20230711_all.ipk
+Size: 31287
+SHA256sum: 1b8a713be9234ba78eca6860347f0ddf17b4d936633db5a929c8b8715200e7db
+Description:  LuCI for Pcap_DNSProxy. Pcap_DNSProxy, A DNS Server to avoid contaminated result.
+
+Package: luci-app-temp-status
+Version: 0.3-5
+Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1686402823
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2023
+Filename: luci-app-temp-status_0.3-5_all.ipk
+Size: 2874
+SHA256sum: 56b27b3480d5d12427a8c619057da61f01ec4cc76b0ba22220255ad123d6b0a5
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-tinyfilemanager
+Version: 2.5.3-20230520
+Depends: libc, php8, php8-cgi, php8-fastcgi, php8-fpm, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, coreutils-stat, zoneinfo-asia, bash, curl, tar
+Source: /home/runner/work/packages/packages/muink/luci-app-tinyfilemanager
+SourceName: luci-app-tinyfilemanager
+Section: luci
+SourceDateEpoch: 1684572471
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1216861
+Filename: luci-app-tinyfilemanager_2.5.3-20230520_all.ipk
+Size: 1218344
+SHA256sum: 3dee4054b4e52d01bb92e6ca1985af7b58c88658ff3859181a48ee2b38ff4ec2
+Description:  A Web based File Manager in PHP
+
+Package: luci-app-tn-netports
+Version: 2.0.3
+Depends: libc, luabitop
+Source: /home/runner/work/packages/packages/muink/luci-app-tn-netports
+SourceName: luci-app-tn-netports
+Section: luci
+SourceDateEpoch: 1681297360
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 15731
+Filename: luci-app-tn-netports_2.0.3_all.ipk
+Size: 16517
+SHA256sum: 25d9a3dd2ad719b1f53bd540fd1fbb374b273aff633b79ccc9e991c44d46c5a2
+Description:  Network ports status LuCI application
+
+Package: luci-i18n-alwaysonline-zh-cn
+Version: git-23.141.19677-6ff66cd
+Depends: libc, luci-app-alwaysonline
+Source: /home/runner/work/packages/packages/muink/luci-app-alwaysonline
+SourceName: luci-i18n-alwaysonline-zh-cn
+Section: luci
+SourceDateEpoch: 1684646877
+Architecture: all
+Installed-Size: 839
+Filename: luci-i18n-alwaysonline-zh-cn_git-23.141.19677-6ff66cd_all.ipk
+Size: 1693
+SHA256sum: 00101a3eccd7b48dd49d3be08561fb4c5f5c4a95af52ca03aea51798e6dbd322
+Description:  Translation for luci-app-alwaysonline - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-alwaysonline-zh-tw
+Version: git-23.141.19677-6ff66cd
+Depends: libc, luci-app-alwaysonline
+Source: /home/runner/work/packages/packages/muink/luci-app-alwaysonline
+SourceName: luci-i18n-alwaysonline-zh-tw
+Section: luci
+SourceDateEpoch: 1684646877
+Architecture: all
+Installed-Size: 838
+Filename: luci-i18n-alwaysonline-zh-tw_git-23.141.19677-6ff66cd_all.ipk
+Size: 1689
+SHA256sum: 79a88fb2f431a6b04d0743d610019e0b926a02ae0545fca1e526c2e4dab41424
+Description:  Translation for luci-app-alwaysonline - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-argon-config-es
+Version: git-23.166.26172-a6b20ff
+Depends: libc, luci-app-argon-config
+Source: /home/runner/work/packages/packages/jerrykuku/luci-app-argon-config
+SourceName: luci-i18n-argon-config-es
+Section: luci
+SourceDateEpoch: 1686813372
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 680
+Filename: luci-i18n-argon-config-es_git-23.166.26172-a6b20ff_all.ipk
+Size: 1529
+SHA256sum: 8171ae244e5965718416abe1a2ef0d23e5652704f385329d2255ca532d5cf42f
+Description:  Translation for luci-app-argon-config - Español (Spanish)
+
+Package: luci-i18n-argon-config-zh-cn
+Version: git-23.166.26172-a6b20ff
+Depends: libc, luci-app-argon-config
+Source: /home/runner/work/packages/packages/jerrykuku/luci-app-argon-config
+SourceName: luci-i18n-argon-config-zh-cn
+Section: luci
+SourceDateEpoch: 1686813372
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 1447
+Filename: luci-i18n-argon-config-zh-cn_git-23.166.26172-a6b20ff_all.ipk
+Size: 2333
+SHA256sum: ca0c2d044c750a98f1845597dedf276504a11ec1801876ae2ddba449b9dc4b9e
+Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-argon-config-zh-tw
+Version: git-23.166.26172-a6b20ff
+Depends: libc, luci-app-argon-config
+Source: /home/runner/work/packages/packages/jerrykuku/luci-app-argon-config
+SourceName: luci-i18n-argon-config-zh-tw
+Section: luci
+SourceDateEpoch: 1686813372
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 689
+Filename: luci-i18n-argon-config-zh-tw_git-23.166.26172-a6b20ff_all.ipk
+Size: 1564
+SHA256sum: d224ff760db2ce19b64be3dcf820637cff39ff1c0c6d4f5d67ce829ea6c45cad
+Description:  Translation for luci-app-argon-config - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-change-mac-zh-cn
+Version: git-23.131.60760-6ebc62e
+Depends: libc, luci-app-change-mac
+Source: /home/runner/work/packages/packages/muink/luci-app-change-mac
+SourceName: luci-i18n-change-mac-zh-cn
+Section: luci
+SourceDateEpoch: 1683823960
+Architecture: all
+Installed-Size: 950
+Filename: luci-i18n-change-mac-zh-cn_git-23.131.60760-6ebc62e_all.ipk
+Size: 1804
+SHA256sum: d3b4df4a0814b282df0b4f5cad9ac016d96d6e0ee4859ad9fd00e6296e2f0414
+Description:  Translation for luci-app-change-mac - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-change-mac-zh-tw
+Version: git-23.131.60760-6ebc62e
+Depends: libc, luci-app-change-mac
+Source: /home/runner/work/packages/packages/muink/luci-app-change-mac
+SourceName: luci-i18n-change-mac-zh-tw
+Section: luci
+SourceDateEpoch: 1683823960
+Architecture: all
+Installed-Size: 949
+Filename: luci-i18n-change-mac-zh-tw_git-23.131.60760-6ebc62e_all.ipk
+Size: 1795
+SHA256sum: 0351cfa9d20c71ed87dde890ce952cbc0655348f4bbb025f26c53f6ff5175ad4
+Description:  Translation for luci-app-change-mac - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-cpu-perf-ru
+Version: git-23.161.47406-7b52ae7
+Depends: libc, luci-app-cpu-perf
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-perf
+SourceName: luci-i18n-cpu-perf-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1686402606
+Architecture: all
+Installed-Size: 1759
+Filename: luci-i18n-cpu-perf-ru_git-23.161.47406-7b52ae7_all.ipk
+Size: 2607
+SHA256sum: 11fa99757455ffdf3c4bab00c180f373153f419c8eeee1d7879893915503b7f1
+Description:  Translation for luci-app-cpu-perf - Русский (Russian)
+
+Package: luci-i18n-cpu-status-mini-ru
+Version: git-23.114.50473-f9fee2e
+Depends: libc, luci-app-cpu-status-mini
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-status-mini
+SourceName: luci-i18n-cpu-status-mini-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1682344873
+Architecture: all
+Installed-Size: 560
+Filename: luci-i18n-cpu-status-mini-ru_git-23.114.50473-f9fee2e_all.ipk
+Size: 1404
+SHA256sum: de28ead956e1bbac7f14f75906de5bd3e9651f3703b261ce602cdc9b29488869
+Description:  Translation for luci-app-cpu-status-mini - Русский (Russian)
+
+Package: luci-i18n-cpu-status-ru
+Version: git-23.114.50718-1bde129
+Depends: libc, luci-app-cpu-status
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-status
+SourceName: luci-i18n-cpu-status-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1682345118
+Architecture: all
+Installed-Size: 568
+Filename: luci-i18n-cpu-status-ru_git-23.114.50718-1bde129_all.ipk
+Size: 1410
+SHA256sum: b422062dd58101f349508b55f75d1683b0bfb477127b5c8e848f2bba8669e231
+Description:  Translation for luci-app-cpu-status - Русский (Russian)
+
+Package: luci-i18n-cpu-status-zh-cn
+Version: git-23.114.50718-1bde129
+Depends: libc, luci-app-cpu-status
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-cpu-status
+SourceName: luci-i18n-cpu-status-zh-cn
+License: MIT
+Section: luci
+SourceDateEpoch: 1682345118
+Architecture: all
+Installed-Size: 515
+Filename: luci-i18n-cpu-status-zh-cn_git-23.114.50718-1bde129_all.ipk
+Size: 1376
+SHA256sum: d2f84d68de12b1325a17b4e5c06ca9ab0d5422961fc4c62180657f37795d5f35
+Description:  Translation for luci-app-cpu-status - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-diskman-pl
+Version: git-23.238.44749-a4bbe54
+Depends: libc, luci-app-diskman
+Source: /home/runner/work/packages/packages/luci-app-diskman/applications/luci-app-diskman
+SourceName: luci-i18n-diskman-pl
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1693052749
+Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
+Architecture: all
+Installed-Size: 1903
+Filename: luci-i18n-diskman-pl_git-23.238.44749-a4bbe54_all.ipk
+Size: 2779
+SHA256sum: f90862b945551672a32bd85267a216542747f7fbec543cc58713400e2dce2344
+Description:  Translation for luci-app-diskman - Polski (Polish)
+
+Package: luci-i18n-diskman-zh-cn
+Version: git-23.238.44749-a4bbe54
+Depends: libc, luci-app-diskman
+Source: /home/runner/work/packages/packages/luci-app-diskman/applications/luci-app-diskman
+SourceName: luci-i18n-diskman-zh-cn
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1693052749
+Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
+Architecture: all
+Installed-Size: 1870
+Filename: luci-i18n-diskman-zh-cn_git-23.238.44749-a4bbe54_all.ipk
+Size: 2781
+SHA256sum: d93446b752c8c16afe7dfdf6dfd69f0309ae45e06e322eae873d90ce52f00524
+Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-diskman-zh-tw
+Version: git-23.238.44749-a4bbe54
+Depends: libc, luci-app-diskman
+Source: /home/runner/work/packages/packages/luci-app-diskman/applications/luci-app-diskman
+SourceName: luci-i18n-diskman-zh-tw
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1693052749
+Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
+Architecture: all
+Installed-Size: 1880
+Filename: luci-i18n-diskman-zh-tw_git-23.238.44749-a4bbe54_all.ipk
+Size: 2785
+SHA256sum: 035519bc9d5d7e58e1f5b976bff07ea7064301a2455c4afe7507a2b0d91837be
+Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-disks-info-ru
+Version: git-22.262.81869-636f0dd
+Depends: libc, luci-app-disks-info
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-disks-info
+SourceName: luci-i18n-disks-info-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1663627469
+Architecture: all
+Installed-Size: 2221
+Filename: luci-i18n-disks-info-ru_git-22.262.81869-636f0dd_all.ipk
+Size: 3040
+SHA256sum: fd58b35ffa583cf66e89fae93b787e745f33e7f3b7c7a41a39b0386caa6ff627
+Description:  Translation for luci-app-disks-info - Русский (Russian)
+
+Package: luci-i18n-interfaces-statistics-ru
+Version: git-22.055.56852-25d300b
+Depends: libc, luci-app-interfaces-statistics
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-interfaces-statistics
+SourceName: luci-i18n-interfaces-statistics-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1645717652
+Architecture: all
+Installed-Size: 714
+Filename: luci-i18n-interfaces-statistics-ru_git-22.055.56852-25d300b_all.ipk
+Size: 1564
+SHA256sum: 26a252a630b6a1658c682acaad8d569614d3beb1c0d97af9fd680c71f91fcfdc
+Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
+
+Package: luci-i18n-interfaces-statistics-zh-cn
+Version: git-22.055.56852-25d300b
+Depends: libc, luci-app-interfaces-statistics
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-interfaces-statistics
+SourceName: luci-i18n-interfaces-statistics-zh-cn
+License: MIT
+Section: luci
+SourceDateEpoch: 1645717652
+Architecture: all
+Installed-Size: 844
+Filename: luci-i18n-interfaces-statistics-zh-cn_git-22.055.56852-25d300b_all.ipk
+Size: 1724
+SHA256sum: 95a794a5de3aa7a6345995a4dd2974bfc59c403cc3689aba481afaae584d7b59
+Description:  Translation for luci-app-interfaces-statistics - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-internet-detector-ru
+Version: git-23.206.44452-ffc10b8
+Depends: libc, luci-app-internet-detector
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-i18n-internet-detector-ru
+Section: luci
+SourceDateEpoch: 1690287652
+Architecture: all
+Installed-Size: 4112
+Filename: luci-i18n-internet-detector-ru_git-23.206.44452-ffc10b8_all.ipk
+Size: 4949
+SHA256sum: 0ba1dbe7861ca517b82904aeb1f2b84989056e19452200d29956bb89b5a60e60
+Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-log-ru
+Version: git-23.123.47583-b79675e
+Depends: libc, luci-app-log
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-log
+SourceName: luci-i18n-log-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1683119583
+Architecture: all
+Installed-Size: 1113
+Filename: luci-i18n-log-ru_git-23.123.47583-b79675e_all.ipk
+Size: 1949
+SHA256sum: deb78e4f1a00a1a5f339ce8d89d4d8367b97fdf369db4068c942f5035884c58c
+Description:  Translation for luci-app-log - Русский (Russian)
+
+Package: luci-i18n-natmapt-cs
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-cs
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 316
+Filename: luci-i18n-natmapt-cs_git-23.240.26034-d7cc75e_all.ipk
+Size: 1203
+SHA256sum: 4ea435ec01fa87279c348024a5da6ae9fc106fba89c3209dccd286983472062c
+Description:  Translation for luci-app-natmapt - Čeština (Czech)
+
+Package: luci-i18n-natmapt-da
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-da
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 628
+Filename: luci-i18n-natmapt-da_git-23.240.26034-d7cc75e_all.ipk
+Size: 1503
+SHA256sum: 272385601c2a332429b975419cfb7562cbfa9f428e746dbd62919f0d4c0f0ca7
+Description:  Translation for luci-app-natmapt - Dansk (Danish)
+
+Package: luci-i18n-natmapt-de
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-de
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 729
+Filename: luci-i18n-natmapt-de_git-23.240.26034-d7cc75e_all.ipk
+Size: 1616
+SHA256sum: c8f5742340bf3cf12f5f13acab821664efe2dd40ccd69deddd55c45df590053c
+Description:  Translation for luci-app-natmapt - Deutsch (German)
+
+Package: luci-i18n-natmapt-es
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-es
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 740
+Filename: luci-i18n-natmapt-es_git-23.240.26034-d7cc75e_all.ipk
+Size: 1631
+SHA256sum: 46a87f65f383e0eb8ce33b2e36f76fd57bae44cc385101a12ad68e48d5571a18
+Description:  Translation for luci-app-natmapt - Español (Spanish)
+
+Package: luci-i18n-natmapt-fr
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-fr
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 737
+Filename: luci-i18n-natmapt-fr_git-23.240.26034-d7cc75e_all.ipk
+Size: 1629
+SHA256sum: cd9fdf30da32c40dc356a06e12a22d4a4a837436aa532cd9ea1425b7c961fb74
+Description:  Translation for luci-app-natmapt - Français (French)
+
+Package: luci-i18n-natmapt-it
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-it
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 535
+Filename: luci-i18n-natmapt-it_git-23.240.26034-d7cc75e_all.ipk
+Size: 1413
+SHA256sum: 42f3fe99179e064ac2533c88526860a55abe425248162d314c657c8d0ff3eca2
+Description:  Translation for luci-app-natmapt - Italiano (Italian)
+
+Package: luci-i18n-natmapt-lt
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-lt
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 815
+Filename: luci-i18n-natmapt-lt_git-23.240.26034-d7cc75e_all.ipk
+Size: 1685
+SHA256sum: 0dd2cda3801a5a3e441af5dbec4d64547a2ad06c5d89eb21ab52377ba26c7c28
+Description:  Translation for luci-app-natmapt - 
+
+Package: luci-i18n-natmapt-nl
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-nl
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 641
+Filename: luci-i18n-natmapt-nl_git-23.240.26034-d7cc75e_all.ipk
+Size: 1513
+SHA256sum: 2bcbd81c8abc2927844d2c41e7d971b5902ac85069f87f6d2c4220f52574c4bd
+Description:  Translation for luci-app-natmapt - Nederlands (Dutch)
+
+Package: luci-i18n-natmapt-pl
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-pl
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 782
+Filename: luci-i18n-natmapt-pl_git-23.240.26034-d7cc75e_all.ipk
+Size: 1656
+SHA256sum: a7f7f0af111e1e0ca0174c63e570e0900588515f4043a9d4c04cf0e66605a333
+Description:  Translation for luci-app-natmapt - Polski (Polish)
+
+Package: luci-i18n-natmapt-pt-br
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-pt-br
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 742
+Filename: luci-i18n-natmapt-pt-br_git-23.240.26034-d7cc75e_all.ipk
+Size: 1644
+SHA256sum: b82cb1f10d397f3943a6a261186c4ebe54848a534d088d0f17e57c22528ee6d8
+Description:  Translation for luci-app-natmapt - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-natmapt-pt
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-pt
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 718
+Filename: luci-i18n-natmapt-pt_git-23.240.26034-d7cc75e_all.ipk
+Size: 1598
+SHA256sum: 5b57476cb856ccbe59f7f69a6e94e8b5e757b36b68c0b7447c867d4badfd8f6d
+Description:  Translation for luci-app-natmapt - Português (Portuguese)
+
+Package: luci-i18n-natmapt-ro
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-ro
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 761
+Filename: luci-i18n-natmapt-ro_git-23.240.26034-d7cc75e_all.ipk
+Size: 1653
+SHA256sum: 37760f4890389fea65c97536a636527e879fdc546dec58bc4ab03f04370f099d
+Description:  Translation for luci-app-natmapt - Română (Romanian)
+
+Package: luci-i18n-natmapt-ru
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-ru
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 858
+Filename: luci-i18n-natmapt-ru_git-23.240.26034-d7cc75e_all.ipk
+Size: 1761
+SHA256sum: f95d9679460eefc10b8e24f4611303f16a1228a78a75fbb073d92accbe1ebe07
+Description:  Translation for luci-app-natmapt - Русский (Russian)
+
+Package: luci-i18n-natmapt-sv
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-sv
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 309
+Filename: luci-i18n-natmapt-sv_git-23.240.26034-d7cc75e_all.ipk
+Size: 1190
+SHA256sum: 58079a2c6eccaf1c614b0b305a32e90c12ea324246f8ecb3c8212ff856cfb782
+Description:  Translation for luci-app-natmapt - Svenska (Swedish)
+
+Package: luci-i18n-natmapt-tr
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-tr
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 315
+Filename: luci-i18n-natmapt-tr_git-23.240.26034-d7cc75e_all.ipk
+Size: 1205
+SHA256sum: cac0953a8d75d1d5e0d360e95c134abdaa09ad05db8f79e929cdff50e859c99f
+Description:  Translation for luci-app-natmapt - Türkçe (Turkish)
+
+Package: luci-i18n-natmapt-vi
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-vi
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 766
+Filename: luci-i18n-natmapt-vi_git-23.240.26034-d7cc75e_all.ipk
+Size: 1665
+SHA256sum: f8ed7c7a24a164c8c5ee3001f746fbf4751cdd8722d282177b52a64d284d5064
+Description:  Translation for luci-app-natmapt - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-natmapt-zh-cn
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-zh-cn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 1419
+Filename: luci-i18n-natmapt-zh-cn_git-23.240.26034-d7cc75e_all.ipk
+Size: 2344
+SHA256sum: b245c7f9ac7d04354709919335e98d4302688831e6551d8ce52191245048a40a
+Description:  Translation for luci-app-natmapt - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-natmapt-zh-tw
+Version: git-23.240.26034-d7cc75e
+Depends: libc, luci-app-natmapt
+Source: /home/runner/work/packages/packages/muink/luci-app-natmapt
+SourceName: luci-i18n-natmapt-zh-tw
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1693206834
+Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>
+Architecture: all
+Installed-Size: 1429
+Filename: luci-i18n-natmapt-zh-tw_git-23.240.26034-d7cc75e_all.ipk
+Size: 2349
+SHA256sum: 4fe7ee4a38409b3202decdfbb682855f5306cab42b476945046be7e1ba20d218
+Description:  Translation for luci-app-natmapt - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-natter-zh-cn
+Version: git-23.182.31375-d43c41a
+Depends: libc, luci-app-natter
+Source: /home/runner/work/packages/packages/muink/luci-app-natter
+SourceName: luci-i18n-natter-zh-cn
+Section: luci
+SourceDateEpoch: 1688200975
+Architecture: all
+Installed-Size: 2040
+Filename: luci-i18n-natter-zh-cn_git-23.182.31375-d43c41a_all.ipk
+Size: 2892
+SHA256sum: beb888e9611799760f27a95125c55e10f81bb77543bacf7d4fe274c3b70b5e0f
+Description:  Translation for luci-app-natter - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-natter-zh-tw
+Version: git-23.182.31375-d43c41a
+Depends: libc, luci-app-natter
+Source: /home/runner/work/packages/packages/muink/luci-app-natter
+SourceName: luci-i18n-natter-zh-tw
+Section: luci
+SourceDateEpoch: 1688200975
+Architecture: all
+Installed-Size: 2060
+Filename: luci-i18n-natter-zh-tw_git-23.182.31375-d43c41a_all.ipk
+Size: 2904
+SHA256sum: 12479350f954ca692ab8348b8f63b65d5400a3347eb646f153e59588dfbf5d70
+Description:  Translation for luci-app-natter - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-netdata-zh-cn
+Version: git-23.131.60659-4cb13e1
+Depends: libc, luci-app-netdata
+Source: /home/runner/work/packages/packages/muink/luci-app-netdata
+SourceName: luci-i18n-netdata-zh-cn
+Section: luci
+SourceDateEpoch: 1683823859
+Architecture: all
+Installed-Size: 929
+Filename: luci-i18n-netdata-zh-cn_git-23.131.60659-4cb13e1_all.ipk
+Size: 1778
+SHA256sum: 0a89adeab0f66fa8fb76a218cdd2f37ab35969cfe44f2d4c7eb1197c3593173b
+Description:  Translation for luci-app-netdata - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-netdata-zh-tw
+Version: git-23.131.60659-4cb13e1
+Depends: libc, luci-app-netdata
+Source: /home/runner/work/packages/packages/muink/luci-app-netdata
+SourceName: luci-i18n-netdata-zh-tw
+Section: luci
+SourceDateEpoch: 1683823859
+Architecture: all
+Installed-Size: 940
+Filename: luci-i18n-netdata-zh-tw_git-23.131.60659-4cb13e1_all.ipk
+Size: 1787
+SHA256sum: 0c29241b5922581b548fc04eeb96f0fb3bb05a706d61c6620f0b67448204231e
+Description:  Translation for luci-app-netdata - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-netspeedtest-zh-cn
+Version: git-23.131.60569-88d3586
+Depends: libc, luci-app-netspeedtest
+Source: /home/runner/work/packages/packages/muink/luci-app-netspeedtest
+SourceName: luci-i18n-netspeedtest-zh-cn
+Section: luci
+SourceDateEpoch: 1683823769
+Architecture: all
+Installed-Size: 1218
+Filename: luci-i18n-netspeedtest-zh-cn_git-23.131.60569-88d3586_all.ipk
+Size: 2070
+SHA256sum: 0c092d7b7383c3c9e2facac83088c6098b53496a0b1ee3473e62128504667e66
+Description:  Translation for luci-app-netspeedtest - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-netspeedtest-zh-tw
+Version: git-23.131.60569-88d3586
+Depends: libc, luci-app-netspeedtest
+Source: /home/runner/work/packages/packages/muink/luci-app-netspeedtest
+SourceName: luci-i18n-netspeedtest-zh-tw
+Section: luci
+SourceDateEpoch: 1683823769
+Architecture: all
+Installed-Size: 1226
+Filename: luci-i18n-netspeedtest-zh-tw_git-23.131.60569-88d3586_all.ipk
+Size: 2076
+SHA256sum: b844806ecbb849862600b727c1f4e0620b0ff7123ad1e2bfbcb753e7cd880d12
+Description:  Translation for luci-app-netspeedtest - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-packagesync-zh-cn
+Version: git-23.140.31576-69a2915
+Depends: libc, luci-app-packagesync
+Source: /home/runner/work/packages/packages/muink/luci-app-packagesync
+SourceName: luci-i18n-packagesync-zh-cn
+Section: luci
+SourceDateEpoch: 1684572376
+Architecture: all
+Installed-Size: 1457
+Filename: luci-i18n-packagesync-zh-cn_git-23.140.31576-69a2915_all.ipk
+Size: 2304
+SHA256sum: 8c0e5ac56179c5c8e5e0a0e47ada1a40683d3deb2b9aa7800d064711895a0ebd
+Description:  Translation for luci-app-packagesync - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-packagesync-zh-tw
+Version: git-23.140.31576-69a2915
+Depends: libc, luci-app-packagesync
+Source: /home/runner/work/packages/packages/muink/luci-app-packagesync
+SourceName: luci-i18n-packagesync-zh-tw
+Section: luci
+SourceDateEpoch: 1684572376
+Architecture: all
+Installed-Size: 1464
+Filename: luci-i18n-packagesync-zh-tw_git-23.140.31576-69a2915_all.ipk
+Size: 2313
+SHA256sum: 9287182678e60912e89e7b41335f99ec3217eb3416444bf202c8a6c29ba3c337
+Description:  Translation for luci-app-packagesync - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-pcap-dnsproxy-zh-cn
+Version: git-23.193.39639-261df40
+Depends: libc, luci-app-pcap-dnsproxy
+Source: /home/runner/work/packages/packages/muink/luci-app-pcap-dnsproxy
+SourceName: luci-i18n-pcap-dnsproxy-zh-cn
+Section: luci
+SourceDateEpoch: 1689159639
+Architecture: all
+Installed-Size: 5522
+Filename: luci-i18n-pcap-dnsproxy-zh-cn_git-23.193.39639-261df40_all.ipk
+Size: 6365
+SHA256sum: a10b1c7eedcfd943f58dd67f5f5987677b19ae16f7d9589b1aee24435916367f
+Description:  Translation for luci-app-pcap-dnsproxy - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-pcap-dnsproxy-zh-tw
+Version: git-23.193.39639-261df40
+Depends: libc, luci-app-pcap-dnsproxy
+Source: /home/runner/work/packages/packages/muink/luci-app-pcap-dnsproxy
+SourceName: luci-i18n-pcap-dnsproxy-zh-tw
+Section: luci
+SourceDateEpoch: 1689159639
+Architecture: all
+Installed-Size: 5522
+Filename: luci-i18n-pcap-dnsproxy-zh-tw_git-23.193.39639-261df40_all.ipk
+Size: 6362
+SHA256sum: dbd916c2de8fdd3dc05dd064e382b67d15154c63426ce9622dd7acbd1abaed05
+Description:  Translation for luci-app-pcap-dnsproxy - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-temp-status-ru
+Version: git-23.161.47623-765a16a
+Depends: libc, luci-app-temp-status
+Source: /home/runner/work/packages/packages/gSpotx2f/luci-app-temp-status
+SourceName: luci-i18n-temp-status-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1686402823
+Architecture: all
+Installed-Size: 550
+Filename: luci-i18n-temp-status-ru_git-23.161.47623-765a16a_all.ipk
+Size: 1388
+SHA256sum: a8b4238dee493352f89f24dd27088f1bbb0eb39f563f25cc6c053be46e89dcd9
+Description:  Translation for luci-app-temp-status - Русский (Russian)
+
+Package: luci-i18n-tinyfilemanager-zh-cn
+Version: git-23.140.31671-9c61dc4
+Depends: libc, luci-app-tinyfilemanager
+Source: /home/runner/work/packages/packages/muink/luci-app-tinyfilemanager
+SourceName: luci-i18n-tinyfilemanager-zh-cn
+Section: luci
+SourceDateEpoch: 1684572471
+Architecture: all
+Installed-Size: 1154
+Filename: luci-i18n-tinyfilemanager-zh-cn_git-23.140.31671-9c61dc4_all.ipk
+Size: 2001
+SHA256sum: 886a10d5f1fd99e23dff38006ca4a66c359de773089d19bf9a323a466ef4f07a
+Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-tinyfilemanager-zh-tw
+Version: git-23.140.31671-9c61dc4
+Depends: libc, luci-app-tinyfilemanager
+Source: /home/runner/work/packages/packages/muink/luci-app-tinyfilemanager
+SourceName: luci-i18n-tinyfilemanager-zh-tw
+Section: luci
+SourceDateEpoch: 1684572471
+Architecture: all
+Installed-Size: 1166
+Filename: luci-i18n-tinyfilemanager-zh-tw_git-23.140.31671-9c61dc4_all.ipk
+Size: 2014
+SHA256sum: f33c64b60b2c0fce8ec508db4fe250db9eb959009657fda1c8e598261f7e4354
+Description:  Translation for luci-app-tinyfilemanager - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-tn-netports-ru
+Version: git-23.102.39760-cc029c7
+Depends: libc, luci-app-tn-netports
+Source: /home/runner/work/packages/packages/muink/luci-app-tn-netports
+SourceName: luci-i18n-tn-netports-ru
+Section: luci
+SourceDateEpoch: 1681297360
+Architecture: all
+Installed-Size: 1038
+Filename: luci-i18n-tn-netports-ru_git-23.102.39760-cc029c7_all.ipk
+Size: 1872
+SHA256sum: d1a407d6feee8ca5b8b542fb923191cf4b9f1a0317a79dc8aa48c5cae495eb5f
+Description:  Translation for luci-app-tn-netports - Русский (Russian)
+
+Package: luci-i18n-tn-netports-zh-cn
+Version: git-23.102.39760-cc029c7
+Depends: libc, luci-app-tn-netports
+Source: /home/runner/work/packages/packages/muink/luci-app-tn-netports
+SourceName: luci-i18n-tn-netports-zh-cn
+Section: luci
+SourceDateEpoch: 1681297360
+Architecture: all
+Installed-Size: 1190
+Filename: luci-i18n-tn-netports-zh-cn_git-23.102.39760-cc029c7_all.ipk
+Size: 2033
+SHA256sum: e273fa286078b1286c70a990cb381655594086e5098dc6d8a5db4acfc3f70cbc
+Description:  Translation for luci-app-tn-netports - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-tn-netports-zh-tw
+Version: git-23.102.39760-cc029c7
+Depends: libc, luci-app-tn-netports
+Source: /home/runner/work/packages/packages/muink/luci-app-tn-netports
+SourceName: luci-i18n-tn-netports-zh-tw
+Section: luci
+SourceDateEpoch: 1681297360
+Architecture: all
+Installed-Size: 1193
+Filename: luci-i18n-tn-netports-zh-tw_git-23.102.39760-cc029c7_all.ipk
+Size: 2037
+SHA256sum: 606957741502c7a3458293657ed768326ccc4b43c66b93184c56ac1168cd626a
+Description:  Translation for luci-app-tn-netports - 繁體中文 (Chinese Traditional)
+
+Package: luci-theme-argon
+Version: 2.3.1
+Depends: libc, curl, jsonfilter
+Source: /home/runner/work/packages/packages/jerrykuku/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1686419048
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 388570
+Filename: luci-theme-argon_2.3.1_all.ipk
+Size: 389199
+SHA256sum: 9bade06e369ddf7ca8b65cbd9cc67a096ca032c129bd45aee42b8b1594deb750
+Description:  Argon Theme
+
