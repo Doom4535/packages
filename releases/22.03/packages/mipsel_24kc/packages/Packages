@@ -1,25 +1,37 @@
+Package: Toolkit
+Version: 0.4.0.2-2
+Depends: libc, libstdcpp6
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 130820
+Filename: Toolkit_0.4.0.2-2_mipsel_24kc.ipk
+Size: 130875
+SHA256sum: 226b0ff6382b3b5145da234b9b1ae126060fd260ac40aedcf20c63a8b1c32f13
+Description:  A network util can ping with DNS request.
+
 Package: alwaysonline
 Version: 1.2.0-20230824
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1745948
+Installed-Size: 1745942
 Filename: alwaysonline_1.2.0-20230824_mipsel_24kc.ipk
-Size: 1741809
-SHA256sum: 8c55b0d148811bd9fd01f51e61cc7a705fdc2e5f5f06d1108ea3097ea795a1c0
+Size: 1741792
+SHA256sum: 11e5b94022a35d6a370515e4aaa41f3ddc7d61eb044cab26722e1a79863bd6bf
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
 
 Package: go-stun
-Version: 0.1.4-8
+Version: 0.1.4-9
 Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 797777
-Filename: go-stun_0.1.4-8_mipsel_24kc.ipk
-Size: 798137
-SHA256sum: be6f8e196399053c91e538c125626c3faebbd9c476821f20b8ed3a202f9fc322
+Installed-Size: 797799
+Filename: go-stun_0.1.4-9_mipsel_24kc.ipk
+Size: 798149
+SHA256sum: f70e84e66cdb9cbd6982d72c6b57efca51b3b1fea9a0ed138c9bb76be2481a29
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
@@ -31,35 +43,87 @@ Section: net
 Architecture: all
 Installed-Size: 10391
 Filename: internet-detector_1.0-0_all.ipk
-Size: 11268
-SHA256sum: c401a822685bdc271bd12822ee2d115244b2359af97e7650f6377cf817510e84
+Size: 11256
+SHA256sum: 503444358aa77a6a06ba5c0a983e46cfaaa31570bdbe138804caa2848a85926f
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
-Package: natmapt-client-script-transmission
-Version: 20230829-2
+Package: natmapt-client-script-deluge
+Version: 20230820-10
 Depends: libc, natmapt
 Provides: natmapt-client-scripts
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 634
-Filename: natmapt-client-script-transmission_20230829-2_all.ipk
-Size: 1440
-SHA256sum: 48f983b2603a39c0407c63cbff44d1ef54809a57e0071e976339175ad2f02056
+Installed-Size: 816
+Filename: natmapt-client-script-deluge_20230820-10_all.ipk
+Size: 1617
+SHA256sum: 51cb1df737da233b104523c8c0e201a07de690e70d5a5f6ad957dfb10348cfd7
+Description:  NATMap client scripts (Deluge)
+
+Package: natmapt-client-script-transmission
+Version: 20230820-10
+Depends: libc, natmapt
+Provides: natmapt-client-scripts
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 633
+Filename: natmapt-client-script-transmission_20230820-10_all.ipk
+Size: 1434
+SHA256sum: 893ed43e1b0c1a334970e3d8b6fb387f32b3c8a7fe5ef5b8c13a9f546272d5d8
 Description:  NATMap client scripts (Transmission)
 
+Package: natmapt-notify-script-pushbullet
+Version: 20230820-10
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 623
+Filename: natmapt-notify-script-pushbullet_20230820-10_all.ipk
+Size: 1419
+SHA256sum: 87b37a3a62793e32bd1c759b1f612a90a8bccf1feb2cd16ecf1ed1ddcc17a69e
+Description:  NATMap notify scripts (Pushbullet)
+
+Package: natmapt-notify-script-pushover
+Version: 20230820-10
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 645
+Filename: natmapt-notify-script-pushover_20230820-10_all.ipk
+Size: 1442
+SHA256sum: 37e14bbd28787f8c70c749b6b7ec86abf957cd62117bb558502df877675d33b1
+Description:  NATMap notify scripts (Pushover)
+
+Package: natmapt-notify-script-telegram
+Version: 20230820-10
+Depends: libc, natmapt
+Provides: natmapt-notify-scripts
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 639
+Filename: natmapt-notify-script-telegram_20230820-10_all.ipk
+Size: 1439
+SHA256sum: 8c2fae6e019a5cca305430d7e5953258f40da3cfa3ef13aafecd9f6e3cbbf471
+Description:  NATMap notify scripts (Telegram)
+
 Package: natmapt
-Version: 20230829-2
-Depends: libc, curl, jsonfilter
+Version: 20230820-10
+Depends: libc, curl, jsonfilter, bash
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 21581
-Filename: natmapt_20230829-2_mipsel_24kc.ipk
-Size: 22259
-SHA256sum: 7d588fff5e8b307c1f83bc8d4cf7246f059ea9a73a98af392696640d5d8a06e1
+Installed-Size: 24097
+Filename: natmapt_20230820-10_mipsel_24kc.ipk
+Size: 24918
+SHA256sum: 93ea390fcada8af223e9a0dc946b5a586790c377a190dcb266a27fcb159a70ae
 Description:  TCP/UDP port mapping tool for full cone NAT
 
 Package: natter-ddns-script-cloudflare
@@ -69,10 +133,10 @@ Provides: natter-ddns-scripts
 License: GPL-3
 Section: net
 Architecture: all
-Installed-Size: 1131
+Installed-Size: 1132
 Filename: natter-ddns-script-cloudflare_0.9-20230828_all.ipk
-Size: 1925
-SHA256sum: 15b4c08199d793d0a00bcdf38bf9a8bde34ceea75428203f3ab70d1274740c76
+Size: 1909
+SHA256sum: 3f4912fc847c98f1c99f5b5884140cb134a5c8e40b562fc28a952ca1428aec8b
 Description:  Natter ddns scripts (cloudflare)
 
 Package: natter-notify-script-pushbullet
@@ -82,10 +146,10 @@ Provides: natter-notify-scripts
 License: GPL-3
 Section: net
 Architecture: all
-Installed-Size: 490
+Installed-Size: 493
 Filename: natter-notify-script-pushbullet_0.9-20230828_all.ipk
-Size: 1277
-SHA256sum: 3f67c879433d15ea297d864cedffc0cb718194c1cd5e93703e9e944e3bc7599a
+Size: 1266
+SHA256sum: c7b1bb62f5c6a905361acb2c5887c602cbe4370e4e4e05c3cfbca6f615aa0221
 Description:  Natter notify scripts (pushbullet)
 
 Package: natter-notify-script-telegram
@@ -95,10 +159,10 @@ Provides: natter-notify-scripts
 License: GPL-3
 Section: net
 Architecture: all
-Installed-Size: 508
+Installed-Size: 509
 Filename: natter-notify-script-telegram_0.9-20230828_all.ipk
-Size: 1288
-SHA256sum: ba6a3ec8b3050dbf573dfc1b5dd6309cdbf4f06f5473536e2b16fce8190e370b
+Size: 1273
+SHA256sum: 3b935f0f7d017ae4785fb2459d7dbe1020d075712107d0dc60a2c205c5e43a1a
 Description:  Natter notify scripts (telegram)
 
 Package: natter
@@ -107,10 +171,10 @@ Depends: libc, python3-light, bash, coreutils-base64, curl, jsonfilter, natter-n
 License: GPL-3
 Section: net
 Architecture: all
-Installed-Size: 18818
+Installed-Size: 18854
 Filename: natter_0.9-20230828_all.ipk
-Size: 20075
-SHA256sum: 224f37da5b053825b526cf69cf9ba7c2e5b7d3feea49eadb8f661ff37ffbed47
+Size: 20095
+SHA256sum: 5ea9c9c15610e1487b04357a0a76b38c27e918868312e9d4c935930043d3d2e3
 Description:  Open Port under FullCone NAT (NAT 1)
 
 Package: netdata-ssl
@@ -120,10 +184,10 @@ License: GPL-3.0-or-later
 Section: admin
 CPE-ID: cpe:/a:my-netdata:netdata
 Architecture: mipsel_24kc
-Installed-Size: 8015164
+Installed-Size: 8014311
 Filename: netdata-ssl_1.33.1-1_mipsel_24kc.ipk
-Size: 7983105
-SHA256sum: 4000b9c95d8b76a70117b9ff11066fd32008647cfe34682164726a057f120d50
+Size: 7981942
+SHA256sum: bdfbff76e2edd5f7f2f7935a272d285ab2869965abf7f4343aecc33f2d08426f
 Description:  netdata is a highly optimized Linux daemon providing real-time performance
  monitoring for Linux systems, applications and SNMP devices over the web.
  
@@ -138,8 +202,8 @@ Section: net
 Architecture: mipsel_24kc
 Installed-Size: 320983
 Filename: pcap-dnsproxy_0.4.9.13-70a40bb_mipsel_24kc.ipk
-Size: 320785
-SHA256sum: 6a33f1ad810dee6cb9dc1ed9e674e2e26f534e92997e1bdde68e26f6decdf9ca
+Size: 320774
+SHA256sum: bb82a5f16f1a459b9c7754ad25dcf3a5b541f24807f8b42a2317fd418763ae15
 Description:  A local DNS server based on LibPcap
 
 Package: php-nginx
@@ -150,8 +214,8 @@ Section: net
 Architecture: all
 Installed-Size: 853
 Filename: php-nginx_20230426_all.ipk
-Size: 1672
-SHA256sum: 7c1b6541fecfa9489937d8744e389e4bed8af5550bc0d59c89a7fa04ec0398a2
+Size: 1666
+SHA256sum: 3da9894589f73be5f3e1cae468359b8bede1fb91f5c5c91b833bc40c825dae4d
 Description:  PHP with Nginx as Webserver
 
 Package: rgmac
@@ -160,10 +224,10 @@ Depends: libc, bash, curl, coreutils-cksum, getopt
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 3631
+Installed-Size: 3628
 Filename: rgmac_1.4.6-20230412_all.ipk
-Size: 4465
-SHA256sum: bacea8b0a91645471ec0f1ea5ccbf698b7e6c3c3ce6389120155502299306c4a
+Size: 4438
+SHA256sum: d5d3aff6ebcbf4f2949d8be2245ada564f6f3aba7525cb21560fc60158b3fdd5
 Description:  A random MAC address generator
 
 Package: stuntman-client
@@ -172,10 +236,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 35977
+Installed-Size: 35980
 Filename: stuntman-client_1.2.16-20230829_mipsel_24kc.ipk
-Size: 36907
-SHA256sum: 1fbfb7f8fa14276cc968f11664e1b07bcf8912c97e6a6328248bddbdaf6f8f79
+Size: 36893
+SHA256sum: 9d70e9da466c4be96a18e1e9c263d16faac23b1ff3ec710de7cbc3a19d56c2f3
 Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
 
 Package: stuntman-server
@@ -184,10 +248,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 84099
+Installed-Size: 84047
 Filename: stuntman-server_1.2.16-20230829_mipsel_24kc.ipk
-Size: 84860
-SHA256sum: 2377c5e7258d6d4498ebb8f3f13c8e8a97cd3af4c728d05c8584a938dc3f891a
+Size: 84778
+SHA256sum: 21977625634ad0053cb91eb056a54aa1905728200539d8cee56f2ea96d158d09
 Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
 
 Package: stuntman-testcode
@@ -196,10 +260,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 61872
+Installed-Size: 61876
 Filename: stuntman-testcode_1.2.16-20230829_mipsel_24kc.ipk
-Size: 62793
-SHA256sum: 657fe67c9c6ff5269fc0fee0988a4332d41249e29e30383f9cab456aca2f79ee
+Size: 62776
+SHA256sum: 1b1bbd2026dba073718fc969545493f7d95172fa73ebf78cfc1e40fbde68522a
 Description:  An open source STUN server and client code by john selbie. Compliant with the latest RFCs including 5389, 5769, and 5780. Also includes backwards compatibility for RFC 3489.
 
 Package: uci-alwaysonline-nginx
@@ -209,10 +273,10 @@ Provides: uci-alwaysonline
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2027
+Installed-Size: 2030
 Filename: uci-alwaysonline-nginx_1.2.0-20230824_mipsel_24kc.ipk
-Size: 2873
-SHA256sum: 4f77852301bf20fcb6018c0909868aff7d573933bc5e4548b23bf1f44c55cd98
+Size: 2867
+SHA256sum: 4f6210d3ef53db9191fa8e0fd4d6abd4cb138949b653367ac0089317aa3998a8
 Description:  This variant of the alwaysonline package is based on the nginx.
 
 Package: uci-alwaysonline
@@ -222,9 +286,9 @@ Conflicts: uci-alwaysonline-nginx
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1893
+Installed-Size: 1894
 Filename: uci-alwaysonline_1.2.0-20230824_mipsel_24kc.ipk
-Size: 2833
-SHA256sum: dd216236fbcdaccdeea328e3bc6c6c46c7291726732581280ccf489730340907
+Size: 2822
+SHA256sum: dff22b275d6c6fbcdf95f5c0d75f0e2c71500857c49aa7b6feac2fe891f41761
 Description:  This variant of the alwaysonline package is based on the iptables/nftables.
 
