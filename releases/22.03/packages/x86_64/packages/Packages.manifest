@@ -6,13 +6,13 @@ SourceName: Toolkit
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694930288
+SourceDateEpoch: 1698502235
 Maintainer: Chengr28 <chengr28@twitter>
 Architecture: x86_64
-Installed-Size: 112607
+Installed-Size: 112612
 Filename: Toolkit_0.4.0.2-2_x86_64.ipk
-Size: 113424
-SHA256sum: d4d279f4bcb0991e44c5a17cb9ac73f828db2620f609d47b83ce7e85e416be0a
+Size: 113432
+SHA256sum: 1c2faae732b83b4b763600633305b9b2e663e8978398c80c9ccb6baf9e2418b7
 Description:  A network util can ping with DNS request.
 
 Package: alwaysonline
@@ -27,11 +27,28 @@ Require-User: alwaysonline:alwaysonline
 SourceDateEpoch: 1693652247
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: x86_64
-Installed-Size: 1964519
+Installed-Size: 1965024
 Filename: alwaysonline_1.2.0-20230824_x86_64.ipk
-Size: 1961784
-SHA256sum: 9fdd1f603a374a1fa685eece3a23ea23bf44c435e4a5bf5aeeae8cdd5c794898
+Size: 1961992
+SHA256sum: ad575bad9fc0d7ef788a2da538a397ba4130ec041c1cc0f84a070b3504f3b0de
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: chinadns-ng
+Version: 2023.10.28-1
+Depends: libc
+Source: /feed/packages/openwrt-chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1698925684
+Maintainer: pexcn <pexcn97@gmail.com>
+Architecture: x86_64
+Installed-Size: 29694
+Filename: chinadns-ng_2023.10.28-1_x86_64.ipk
+Size: 30442
+SHA256sum: 68940679eed8983d477f58b7a9e02f00da31d9a9892287c7cf97187b41004c5b
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
 Version: 0.1.4-9
@@ -44,27 +61,27 @@ Section: net
 SourceDateEpoch: 1694242942
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: x86_64
-Installed-Size: 866721
+Installed-Size: 868096
 Filename: go-stun_0.1.4-9_x86_64.ipk
-Size: 866790
-SHA256sum: 8961a3f21e6ce3d297a9b52faa8787e72b0136e38a2d9b238ec73a30af397863
+Size: 867962
+SHA256sum: 7ca7e5948b8bd1d4734f991ce10bc09cfb6a5730d57e0bcaac565e44e76823c3
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
 
 Package: internet-detector
-Version: 1.0-0
+Version: 1.0-3
 Depends: libc, lua, luaposix, libuci-lua
-Source: /feed/gSpotx2f/luci-app-internet-detector/internet-detector
+Source: /feed/luci/luci-app-internet-detector/internet-detector
 SourceName: internet-detector
 Section: net
-SourceDateEpoch: 1690287652
+SourceDateEpoch: 1693342327
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 10391
-Filename: internet-detector_1.0-0_all.ipk
-Size: 11256
-SHA256sum: 503444358aa77a6a06ba5c0a983e46cfaaa31570bdbe138804caa2848a85926f
+Installed-Size: 10672
+Filename: internet-detector_1.0-3_all.ipk
+Size: 11548
+SHA256sum: 61afc573940383a118f14d7ff0ef72c568a2022911501d94f968d765a8bf4257
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -170,10 +187,10 @@ Section: net
 SourceDateEpoch: 1694776390
 Maintainer: Anya Lin <hukk1996@gmail.com>, Richard Yu <yurichard3839@gmail.com>, Ray Wang <r@hev.cc>
 Architecture: x86_64
-Installed-Size: 26076
+Installed-Size: 26056
 Filename: natmapt_20230820-10_x86_64.ipk
-Size: 26921
-SHA256sum: 325a33045a200fc4ab8d9e371f5cacbf8e62e263de6e7cc68ddbd8e11aeb65ea
+Size: 26901
+SHA256sum: e5ff02956905c2fe5dceaa5e5aca6c9bf25ca31c1848f632471d3ce230f29481
 Description:  TCP/UDP port mapping tool for full cone NAT
 
 Package: natter-ddns-script-cloudflare
@@ -303,21 +320,38 @@ Size: 1666
 SHA256sum: 3da9894589f73be5f3e1cae468359b8bede1fb91f5c5c91b833bc40c825dae4d
 Description:  PHP with Nginx as Webserver
 
+Package: plain-nginx
+Version: 20231028
+Depends: libc, luci-nginx
+Source: /feed/packages/openwrt-plain-nginx
+SourceName: plain-nginx
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1698506452
+Maintainer: muink <hukk1996@gmail.com>
+Architecture: all
+Installed-Size: 366
+Filename: plain-nginx_20231028_all.ipk
+Size: 1160
+SHA256sum: f2c9897a2004d6c29cfe6b687e95c7e2bdd9e9b105bacd0d086e4390b99543f3
+Description:  Read text document directly
+
 Package: rgmac
-Version: 1.4.6-20230412
+Version: 1.4.7-20231028
 Depends: libc, bash, curl, coreutils-cksum, getopt
 Source: /feed/packages/openwrt-rgmac
 SourceName: rgmac
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1693652309
+SourceDateEpoch: 1698480415
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: all
-Installed-Size: 3628
-Filename: rgmac_1.4.6-20230412_all.ipk
-Size: 4438
-SHA256sum: d5d3aff6ebcbf4f2949d8be2245ada564f6f3aba7525cb21560fc60158b3fdd5
+Installed-Size: 3644
+Filename: rgmac_1.4.7-20231028_all.ipk
+Size: 4466
+SHA256sum: ff275b87a01cb9c00ced9cd4002622c3ce9f3bdcc47bcd118ec081454f36db35
 Description:  A random MAC address generator
 
 Package: stuntman-client

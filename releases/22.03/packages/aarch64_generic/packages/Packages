@@ -4,10 +4,10 @@ Depends: libc, libstdcpp6
 License: GPL-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 115074
+Installed-Size: 115079
 Filename: Toolkit_0.4.0.2-2_aarch64_generic.ipk
-Size: 115669
-SHA256sum: 9b89c2ecb6c25440ea1572034e809269520e725eb559e7e6938578c59724e50c
+Size: 115632
+SHA256sum: 31c8cd0ea66368bd3f05ff82f97fcd037635ae4c9f5e8e4a829212d8f5999e4b
 Description:  A network util can ping with DNS request.
 
 Package: alwaysonline
@@ -16,11 +16,23 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1792874
+Installed-Size: 1793954
 Filename: alwaysonline_1.2.0-20230824_aarch64_generic.ipk
-Size: 1789717
-SHA256sum: a5f3fc758e32b06240e553862679ded4e326fd3bb46b16ed73ef7881138bbd54
+Size: 1790972
+SHA256sum: f790b87a938d42aa8e7e19db01017a4433d211b093659f1fc5a2af774285f652
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: chinadns-ng
+Version: 2023.10.28-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 28095
+Filename: chinadns-ng_2023.10.28-1_aarch64_generic.ipk
+Size: 28896
+SHA256sum: 2f6b59edd2841c708000e864be22645fd14527403bd423e95fee737fe4ddf520
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
 Version: 0.1.4-9
@@ -28,23 +40,23 @@ Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 804864
+Installed-Size: 805815
 Filename: go-stun_0.1.4-9_aarch64_generic.ipk
-Size: 804694
-SHA256sum: b54231ff1ce8fe1ec87d4af80e59db5a2e8db965c6f722a7e95b0b16372d19f9
+Size: 805650
+SHA256sum: 520228a1701016e7f462cb354f87bf2ee5e6f39801073c20afc1c55ca83b3731
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
 
 Package: internet-detector
-Version: 1.0-0
+Version: 1.0-3
 Depends: libc, lua, luaposix, libuci-lua
 Section: net
 Architecture: all
-Installed-Size: 10391
-Filename: internet-detector_1.0-0_all.ipk
-Size: 11256
-SHA256sum: 503444358aa77a6a06ba5c0a983e46cfaaa31570bdbe138804caa2848a85926f
+Installed-Size: 10672
+Filename: internet-detector_1.0-3_all.ipk
+Size: 11548
+SHA256sum: 61afc573940383a118f14d7ff0ef72c568a2022911501d94f968d765a8bf4257
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -120,10 +132,10 @@ Depends: libc, curl, jsonfilter, bash
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 26838
+Installed-Size: 26794
 Filename: natmapt_20230820-10_aarch64_generic.ipk
-Size: 27655
-SHA256sum: 73c6de33de0ff96fca384cf30c6c2001360d21376ec325f1b869039f7a8ca15d
+Size: 27619
+SHA256sum: 8c42e801ce2200207994abd0d42cf63e575877166e7c6c0d0ac2dce75acbbac6
 Description:  TCP/UDP port mapping tool for full cone NAT
 
 Package: natter-ddns-script-cloudflare
@@ -218,16 +230,28 @@ Size: 1666
 SHA256sum: 3da9894589f73be5f3e1cae468359b8bede1fb91f5c5c91b833bc40c825dae4d
 Description:  PHP with Nginx as Webserver
 
+Package: plain-nginx
+Version: 20231028
+Depends: libc, luci-nginx
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 366
+Filename: plain-nginx_20231028_all.ipk
+Size: 1160
+SHA256sum: f2c9897a2004d6c29cfe6b687e95c7e2bdd9e9b105bacd0d086e4390b99543f3
+Description:  Read text document directly
+
 Package: rgmac
-Version: 1.4.6-20230412
+Version: 1.4.7-20231028
 Depends: libc, bash, curl, coreutils-cksum, getopt
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 3628
-Filename: rgmac_1.4.6-20230412_all.ipk
-Size: 4438
-SHA256sum: d5d3aff6ebcbf4f2949d8be2245ada564f6f3aba7525cb21560fc60158b3fdd5
+Installed-Size: 3644
+Filename: rgmac_1.4.7-20231028_all.ipk
+Size: 4466
+SHA256sum: ff275b87a01cb9c00ced9cd4002622c3ce9f3bdcc47bcd118ec081454f36db35
 Description:  A random MAC address generator
 
 Package: stuntman-client

@@ -4,10 +4,10 @@ Depends: libc, libstdcpp6
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 114848
+Installed-Size: 114851
 Filename: Toolkit_0.4.0.2-2_aarch64_cortex-a53.ipk
-Size: 115389
-SHA256sum: 86f530fe575a6ad22ed23359dc371a1496f24a9ef3ecc373d2b2c8c92cc92b9a
+Size: 115430
+SHA256sum: 51897c294e4ec188a322072891071004e07611b9f5aecce638f73031a41096d5
 Description:  A network util can ping with DNS request.
 
 Package: alwaysonline
@@ -16,11 +16,23 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 1792816
+Installed-Size: 1793949
 Filename: alwaysonline_1.2.0-20230824_aarch64_cortex-a53.ipk
-Size: 1789691
-SHA256sum: 448a33f243fcac31c134f2c4c6efcfceb66a8d9ce21d2dbd7ccfbaf0517d05c7
+Size: 1790794
+SHA256sum: 09aa06c67e5ed59d3cdd3e912da98ccfb2862db2abc54dc9383a55182bd9e5ae
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: chinadns-ng
+Version: 2023.10.28-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 28096
+Filename: chinadns-ng_2023.10.28-1_aarch64_cortex-a53.ipk
+Size: 28907
+SHA256sum: 9f26dc73ce160973469e26df9c9a3f54c0fc333b176d87f55c898e926d33d1ba
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
 Version: 0.1.4-9
@@ -28,23 +40,23 @@ Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 804863
+Installed-Size: 805816
 Filename: go-stun_0.1.4-9_aarch64_cortex-a53.ipk
-Size: 804688
-SHA256sum: 1cd1b3d88222aa63e412a056dff680c789b7b86971879765a81163bd1ce5777b
+Size: 805707
+SHA256sum: 6ced457d6216fed9540a3b3c30792b28ed1bb0931787fb2670c7307c4b8b8ba8
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
 
 Package: internet-detector
-Version: 1.0-0
+Version: 1.0-3
 Depends: libc, lua, luaposix, libuci-lua
 Section: net
 Architecture: all
-Installed-Size: 10391
-Filename: internet-detector_1.0-0_all.ipk
-Size: 11256
-SHA256sum: 503444358aa77a6a06ba5c0a983e46cfaaa31570bdbe138804caa2848a85926f
+Installed-Size: 10672
+Filename: internet-detector_1.0-3_all.ipk
+Size: 11548
+SHA256sum: 61afc573940383a118f14d7ff0ef72c568a2022911501d94f968d765a8bf4257
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -120,10 +132,10 @@ Depends: libc, curl, jsonfilter, bash
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 26729
+Installed-Size: 26699
 Filename: natmapt_20230820-10_aarch64_cortex-a53.ipk
-Size: 27563
-SHA256sum: bce20f7f4daf4c082069e821ab993415ed782080b9df9a7ad05ec34dce8280a0
+Size: 27520
+SHA256sum: f9cdfe4b456bad2b037709ba6236a886ac1ac16cfc402963112b52cc6f4ffd4b
 Description:  TCP/UDP port mapping tool for full cone NAT
 
 Package: natter-ddns-script-cloudflare
@@ -218,16 +230,28 @@ Size: 1666
 SHA256sum: 3da9894589f73be5f3e1cae468359b8bede1fb91f5c5c91b833bc40c825dae4d
 Description:  PHP with Nginx as Webserver
 
+Package: plain-nginx
+Version: 20231028
+Depends: libc, luci-nginx
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 366
+Filename: plain-nginx_20231028_all.ipk
+Size: 1160
+SHA256sum: f2c9897a2004d6c29cfe6b687e95c7e2bdd9e9b105bacd0d086e4390b99543f3
+Description:  Read text document directly
+
 Package: rgmac
-Version: 1.4.6-20230412
+Version: 1.4.7-20231028
 Depends: libc, bash, curl, coreutils-cksum, getopt
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 3628
-Filename: rgmac_1.4.6-20230412_all.ipk
-Size: 4438
-SHA256sum: d5d3aff6ebcbf4f2949d8be2245ada564f6f3aba7525cb21560fc60158b3fdd5
+Installed-Size: 3644
+Filename: rgmac_1.4.7-20231028_all.ipk
+Size: 4466
+SHA256sum: ff275b87a01cb9c00ced9cd4002622c3ce9f3bdcc47bcd118ec081454f36db35
 Description:  A random MAC address generator
 
 Package: stuntman-client

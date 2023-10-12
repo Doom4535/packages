@@ -6,8 +6,8 @@ Section: net
 Architecture: arm_cortex-a9
 Installed-Size: 122323
 Filename: Toolkit_0.4.0.2-2_arm_cortex-a9.ipk
-Size: 122806
-SHA256sum: 8926f04598a77cc565b46fc86d7bf9311cfc4f08e9835aa95edc40dcdfb17319
+Size: 122809
+SHA256sum: 2e50733c8d878b056009b3bd80b60bf37d1f4b412f43ef75d746249c8f650557
 Description:  A network util can ping with DNS request.
 
 Package: alwaysonline
@@ -16,11 +16,23 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 1838761
+Installed-Size: 1840035
 Filename: alwaysonline_1.2.0-20230824_arm_cortex-a9.ipk
-Size: 1836303
-SHA256sum: f223c80aa97bfe0053fdb59055fd860593a20f6c4e6492bd26eebf3f9f4e7461
+Size: 1837660
+SHA256sum: f8ae9bf87e252af932a62639956d5f9fa974b762549510dca404d81665886f5a
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
+
+Package: chinadns-ng
+Version: 2023.10.28-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 27545
+Filename: chinadns-ng_2023.10.28-1_arm_cortex-a9.ipk
+Size: 28268
+SHA256sum: 08cc4937f15c5a0384270bd890c295c8a304ca2685117b3c0fc2c5d0b76455d7
+Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
 Version: 0.1.4-9
@@ -28,23 +40,23 @@ Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 843802
+Installed-Size: 845233
 Filename: go-stun_0.1.4-9_arm_cortex-a9.ipk
-Size: 844236
-SHA256sum: 85d9b025f4565bbc115c0f1f40eccdabdbc57a2faecfd84ef104f7df2c2b6d04
+Size: 845658
+SHA256sum: b22ddd59d8cad17a14e3d2c03215deb6762e348a5c472b432d1b7b9370f3f3bd
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
 
 Package: internet-detector
-Version: 1.0-0
+Version: 1.0-3
 Depends: libc, lua, luaposix, libuci-lua
 Section: net
 Architecture: all
-Installed-Size: 10391
-Filename: internet-detector_1.0-0_all.ipk
-Size: 11256
-SHA256sum: 503444358aa77a6a06ba5c0a983e46cfaaa31570bdbe138804caa2848a85926f
+Installed-Size: 10672
+Filename: internet-detector_1.0-3_all.ipk
+Size: 11548
+SHA256sum: 61afc573940383a118f14d7ff0ef72c568a2022911501d94f968d765a8bf4257
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -120,10 +132,10 @@ Depends: libc, curl, jsonfilter, bash
 License: MIT
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 23450
+Installed-Size: 23397
 Filename: natmapt_20230820-10_arm_cortex-a9.ipk
-Size: 24269
-SHA256sum: 7da40c10cd1e7efdeb5904659303e7a1b0d924fe8f874cc4719f6697e6644823
+Size: 24142
+SHA256sum: 5cfbf0b3a78bebd224e1316894be0980e5bee576578fd751a24eb5903f9acb2f
 Description:  TCP/UDP port mapping tool for full cone NAT
 
 Package: natter-ddns-script-cloudflare
@@ -218,16 +230,28 @@ Size: 1666
 SHA256sum: 3da9894589f73be5f3e1cae468359b8bede1fb91f5c5c91b833bc40c825dae4d
 Description:  PHP with Nginx as Webserver
 
+Package: plain-nginx
+Version: 20231028
+Depends: libc, luci-nginx
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 366
+Filename: plain-nginx_20231028_all.ipk
+Size: 1160
+SHA256sum: f2c9897a2004d6c29cfe6b687e95c7e2bdd9e9b105bacd0d086e4390b99543f3
+Description:  Read text document directly
+
 Package: rgmac
-Version: 1.4.6-20230412
+Version: 1.4.7-20231028
 Depends: libc, bash, curl, coreutils-cksum, getopt
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 3628
-Filename: rgmac_1.4.6-20230412_all.ipk
-Size: 4438
-SHA256sum: d5d3aff6ebcbf4f2949d8be2245ada564f6f3aba7525cb21560fc60158b3fdd5
+Installed-Size: 3644
+Filename: rgmac_1.4.7-20231028_all.ipk
+Size: 4466
+SHA256sum: ff275b87a01cb9c00ced9cd4002622c3ce9f3bdcc47bcd118ec081454f36db35
 Description:  A random MAC address generator
 
 Package: stuntman-client
