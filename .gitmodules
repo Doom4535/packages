@@ -100,3 +100,6 @@
 [submodule "luci/luci-app-dnsproxy"]
 	path = luci/luci-app-dnsproxy
 	url = https://github.com/muink/luci-app-dnsproxy.git
+[submodule "luci/luci-app-homeproxy"]
+	path = luci/luci-app-homeproxy
+	url = https://github.com/immortalwrt/homeproxy.git
