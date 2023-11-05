@@ -16,10 +16,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1901491
+Installed-Size: 1901490
 Filename: alwaysonline_1.2.0-20230824_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1898886
-SHA256sum: fe05401faab6bb7310cd88cc508e2c698e044921833981b7d0bc1ad5b2519614
+Size: 1898909
+SHA256sum: a147972bd62bd34e8c7b5227de17a618da7f363a778e60750bc771ac05d25f80
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
 
 Package: chinadns-ng
@@ -28,10 +28,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 26499
+Installed-Size: 26500
 Filename: chinadns-ng_2023.10.28-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 27235
-SHA256sum: 87686916e56b5b9c29ff07da47d53a8d2e39cd5066a6e4d2921f5385691cc214
+Size: 27242
+SHA256sum: 167f60abe60365dc26a36b992c9f0a96e07d0b6f45794754abb5dcc5a62b1452
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
@@ -40,10 +40,10 @@ Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 852261
+Installed-Size: 852263
 Filename: go-stun_0.1.4-9_arm_cortex-a7_neon-vfpv4.ipk
-Size: 852545
-SHA256sum: 0b4783d5072b66afd46ee6efe1c0d64dbb6b8dbce5705b47988077c8aeb56ca8
+Size: 852549
+SHA256sum: 3e504d2fde70367e8058e26544555a33445f6e3e7cd89f708acedb147029b8cd
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
@@ -238,8 +238,8 @@ Section: net
 Architecture: all
 Installed-Size: 365
 Filename: plain-nginx_20231028_all.ipk
-Size: 1157
-SHA256sum: 2c097e7fefc417672982f68eed8ac2e0512dfbccdbb353df60ff4200ea34007f
+Size: 1155
+SHA256sum: 88861bd016176dce14784e546d17b7087709aff159fda3fb9b25918d4b8e3f8d
 Description:  Read text document directly
 
 Package: rgmac

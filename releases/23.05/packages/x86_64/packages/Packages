@@ -16,10 +16,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 2025793
+Installed-Size: 2025790
 Filename: alwaysonline_1.2.0-20230824_x86_64.ipk
-Size: 2023776
-SHA256sum: 3bc7474346da444b735e5c75567e086147c636097ebc10d0c975f9e83246d9af
+Size: 2023712
+SHA256sum: 2e4cf05e0d094a66d491e507ef61ac101bec3294e746a3225a137cebabae835e
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
 
 Package: chinadns-ng
@@ -30,8 +30,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 29528
 Filename: chinadns-ng_2023.10.28-1_x86_64.ipk
-Size: 30305
-SHA256sum: e854714000b6edbb01ef8b5cc820cc88ff6d71dd82624a5a6c8450aa1d2f5bd1
+Size: 30310
+SHA256sum: d229a16075f2e6b0144cce56ce35bc4e73f92defcc3f0ca8e625c79ef785dbba
 Description:  ChinaDNS Next Generation, refactoring with epoll and ipset.
 
 Package: go-stun
@@ -40,10 +40,10 @@ Depends: libc
 License: Apache-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 888712
+Installed-Size: 888711
 Filename: go-stun_0.1.4-9_x86_64.ipk
-Size: 888964
-SHA256sum: 90b2c6fb0838c14863a75f3628503328450041f2cb427cf0a068596869cbc382
+Size: 888930
+SHA256sum: 0f1c6b1c9795b1f7579b4bd98c7db16365259fd4b7c0ad2e3fc9af8de74b6343
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
@@ -238,8 +238,8 @@ Section: net
 Architecture: all
 Installed-Size: 365
 Filename: plain-nginx_20231028_all.ipk
-Size: 1157
-SHA256sum: 2c097e7fefc417672982f68eed8ac2e0512dfbccdbb353df60ff4200ea34007f
+Size: 1155
+SHA256sum: 88861bd016176dce14784e546d17b7087709aff159fda3fb9b25918d4b8e3f8d
 Description:  Read text document directly
 
 Package: rgmac

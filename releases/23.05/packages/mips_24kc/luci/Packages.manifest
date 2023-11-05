@@ -50,13 +50,13 @@ Source: /feed/luci/luci-app-cpu-perf
 SourceName: luci-app-cpu-perf
 License: MIT
 Section: luci
-SourceDateEpoch: 1686402606
+SourceDateEpoch: 1696255553
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6501
+Installed-Size: 6498
 Filename: luci-app-cpu-perf_0.4-0_all.ipk
-Size: 7399
-SHA256sum: ab68eeb85337691034b86f94b02c8aa0bd80d7ae4726a283c9805ad19945792f
+Size: 7396
+SHA256sum: cf2b0073f08c7575dabd9ee8569d1a3e611f79431d1b119b8038b9a30a0eb2fd
 Description:  CPU performance information and management for LuCI
 
 Package: luci-app-cpu-status-mini
@@ -122,6 +122,22 @@ Filename: luci-app-disks-info_0.4-2_all.ipk
 Size: 7515
 SHA256sum: 99aac4497d0f54fb161ca8d2d57695de1ab75a1f9670680b3b2a881aa189ccea
 Description:  Information about connected disk devices (partitions, filesystems, SMART).
+
+Package: luci-app-dnsproxy
+Version: 20231105
+Depends: libc, dnsproxy
+Source: /feed/luci/luci-app-dnsproxy
+SourceName: luci-app-dnsproxy
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1699157120
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2438
+Filename: luci-app-dnsproxy_20231105_all.ipk
+Size: 3288
+SHA256sum: 9447ba789f29af406ef6996bbc04a9b30c50aa461dcee44ac29023c674214de4
+Description:  Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support
 
 Package: luci-app-homeproxy
 Version: git-23.285.12208-905992c
@@ -283,13 +299,13 @@ Source: /feed/luci/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
-SourceDateEpoch: 1686402823
+SourceDateEpoch: 1696255152
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2023
+Installed-Size: 2020
 Filename: luci-app-temp-status_0.3-5_all.ipk
-Size: 2861
-SHA256sum: c4b12201f01946d8b4b1303af15973ac072562d94e52d5dc59bae542cda63a2b
+Size: 2862
+SHA256sum: 5abe9702ed68ff4d27ac1a482ea969067d35e14f301156e65e96140f14f03dc2
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-tinyfilemanager
@@ -424,18 +440,18 @@ SHA256sum: 271ff22c8d61f5ea3df7eb4dad8cd47d92746dc999df5a8e3908b247ff86d664
 Description:  Translation for luci-app-change-mac - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-cpu-perf-ru
-Version: git-23.161.47406-7b52ae7
+Version: git-23.275.50753-10495d6
 Depends: libc, luci-app-cpu-perf
 Source: /feed/luci/luci-app-cpu-perf
 SourceName: luci-i18n-cpu-perf-ru
 License: MIT
 Section: luci
-SourceDateEpoch: 1686402606
+SourceDateEpoch: 1696255553
 Architecture: all
 Installed-Size: 1759
-Filename: luci-i18n-cpu-perf-ru_git-23.161.47406-7b52ae7_all.ipk
-Size: 2590
-SHA256sum: aba1963678e3626bc43ec7a54e5af50885220c8f8c38a2ef5135ab0e85f4955d
+Filename: luci-i18n-cpu-perf-ru_git-23.275.50753-10495d6_all.ipk
+Size: 2586
+SHA256sum: 0279a2aad491e5cdf64bf35f1d4e21df4e75228912030a964f7ce06c6e63b8ba
 Description:  Translation for luci-app-cpu-perf - Русский (Russian)
 
 Package: luci-i18n-cpu-status-mini-ru
@@ -1048,18 +1064,18 @@ SHA256sum: ab740232ea5b75248e4ac8a07169311b8bbc3f021e3a9f317bb2dc4393e84856
 Description:  Translation for luci-app-pcap-dnsproxy - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-temp-status-ru
-Version: git-23.161.47623-765a16a
+Version: git-23.275.50352-826ea28
 Depends: libc, luci-app-temp-status
 Source: /feed/luci/luci-app-temp-status
 SourceName: luci-i18n-temp-status-ru
 License: MIT
 Section: luci
-SourceDateEpoch: 1686402823
+SourceDateEpoch: 1696255152
 Architecture: all
-Installed-Size: 550
-Filename: luci-i18n-temp-status-ru_git-23.161.47623-765a16a_all.ipk
-Size: 1368
-SHA256sum: eebfcb80712285241597160e82ebacd8ad6a5c14f82d62aca336b1a5b5885c5b
+Installed-Size: 549
+Filename: luci-i18n-temp-status-ru_git-23.275.50352-826ea28_all.ipk
+Size: 1364
+SHA256sum: 3385c82a711544b8a79230f8e0a39d6e77d19a01b873d3be202977fdf5233bfe
 Description:  Translation for luci-app-temp-status - Русский (Russian)
 
 Package: luci-i18n-tinyfilemanager-zh-cn
