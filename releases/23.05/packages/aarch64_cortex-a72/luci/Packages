@@ -104,14 +104,14 @@ SHA256sum: 9447ba789f29af406ef6996bbc04a9b30c50aa461dcee44ac29023c674214de4
 Description:  Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support
 
 Package: luci-app-homeproxy
-Version: git-23.285.12208-905992c
+Version: git-23.302.10140-69792b8
 Depends: libc, sing-box, chinadns-ng, firewall4, kmod-nft-tproxy
 Section: luci
 Architecture: all
-Installed-Size: 372117
-Filename: luci-app-homeproxy_git-23.285.12208-905992c_all.ipk
-Size: 373086
-SHA256sum: 2b883e68d230aa72f7674d36b10983c72339178c55ad5742e15f7ffa770b31c2
+Installed-Size: 371012
+Filename: luci-app-homeproxy_git-23.302.10140-69792b8_all.ipk
+Size: 371973
+SHA256sum: 60037017a034193c7dff7fb747dbd6364648704794065a34f18b563ab489db6f
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-interfaces-statistics
@@ -195,14 +195,14 @@ SHA256sum: 9e7975aab8b3b85ecc08dfedd83ce2da41c47c971bea5d28b502e3afafb1f36d
 Description:  Test Net speed
 
 Package: luci-app-packagesync
-Version: 20231029
+Version: 20231103
 Depends: libc, blockd, curl, getopt, rsync, bash, jsonfilter, ncat-full
 Section: luci
 Architecture: all
-Installed-Size: 10276
-Filename: luci-app-packagesync_20231029_all.ipk
-Size: 11216
-SHA256sum: 722fc9ec2d20abfc0c30289d6bcb1345e049c7c1401ff6a188f1f6bcc21c0a1a
+Installed-Size: 10279
+Filename: luci-app-packagesync_20231103_all.ipk
+Size: 11220
+SHA256sum: 92a142b140801e76dfd8db3651cbf1fe65ec085b384b0f76b9083893e0d53e5a
 Description:  Used to build a local mirror feeds source on the router
 
 Package: luci-app-pcap-dnsproxy
@@ -424,14 +424,14 @@ SHA256sum: bf86cf5a6ea1a89d4bb9e911b13f842d08bba354b7c1b5a012deda18d7161b27
 Description:  Translation for luci-app-disks-info - Русский (Russian)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: git-23.285.12208-905992c
+Version: git-23.302.10140-69792b8
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
-Installed-Size: 10019
-Filename: luci-i18n-homeproxy-zh-cn_git-23.285.12208-905992c_all.ipk
-Size: 10867
-SHA256sum: 9263fe0afab24eb0e8c5e8c67aee552e494d3fc28d7b699f4f9ed6cae34af561
+Installed-Size: 10022
+Filename: luci-i18n-homeproxy-zh-cn_git-23.302.10140-69792b8_all.ipk
+Size: 10870
+SHA256sum: e83aa5574be737e2bf56dae7e2a88df80ec3c25732dc039f6f4db4143f79c80e
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-interfaces-statistics-ru
@@ -764,25 +764,25 @@ SHA256sum: da45f60c212aa87e0014b1c6eed2e60218a92f8be3be22d61c1618efb66cae4c
 Description:  Translation for luci-app-netspeedtest - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-packagesync-zh-cn
-Version: git-23.302.53747-e48c1d1
+Version: git-23.307.44388-9ecc1af
 Depends: libc, luci-app-packagesync
 Section: luci
 Architecture: all
-Installed-Size: 1454
-Filename: luci-i18n-packagesync-zh-cn_git-23.302.53747-e48c1d1_all.ipk
-Size: 2293
-SHA256sum: d9ac4baea98a61e9fd6870c4b7ed6b8ea8ff65c650c19244b88b12c5ec400895
+Installed-Size: 1456
+Filename: luci-i18n-packagesync-zh-cn_git-23.307.44388-9ecc1af_all.ipk
+Size: 2299
+SHA256sum: 6616beed675282d25686bd8745c00b5033f5ac977d29e0dd219c94e010ecf27f
 Description:  Translation for luci-app-packagesync - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-packagesync-zh-tw
-Version: git-23.302.53747-e48c1d1
+Version: git-23.307.44388-9ecc1af
 Depends: libc, luci-app-packagesync
 Section: luci
 Architecture: all
-Installed-Size: 1463
-Filename: luci-i18n-packagesync-zh-tw_git-23.302.53747-e48c1d1_all.ipk
-Size: 2302
-SHA256sum: 16fbf6b0af2a45022ef294261eb6b103301d07ea640f88b668273f43a53e356f
+Installed-Size: 1466
+Filename: luci-i18n-packagesync-zh-tw_git-23.307.44388-9ecc1af_all.ipk
+Size: 2309
+SHA256sum: 6d85d0026f84c08fca46b43e26aff52e6787919af1294bdb2f5cb68b7912dffe
 Description:  Translation for luci-app-packagesync - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-pcap-dnsproxy-zh-cn
