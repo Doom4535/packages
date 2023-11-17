@@ -173,25 +173,25 @@ SHA256sum: db4481666341d81f886683a6d1ea080fe1b6e3bf8ce4bd6eb3dc8616de8ddbd2
 Description:  Real-time performance monitoring
 
 Package: luci-app-netspeedtest
-Version: 20231028
+Version: 20231117
 Depends: libc, iperf3, librespeed-go, python3-speedtest-cli, ca-certificates
 Section: luci
 Architecture: all
-Installed-Size: 5269
-Filename: luci-app-netspeedtest_20231028_all.ipk
-Size: 6104
-SHA256sum: 9e7975aab8b3b85ecc08dfedd83ce2da41c47c971bea5d28b502e3afafb1f36d
+Installed-Size: 5263
+Filename: luci-app-netspeedtest_20231117_all.ipk
+Size: 6091
+SHA256sum: 0ba0735e1aed58584507862ea7b66637b5e8339cb232608a426172a0e8cf646d
 Description:  Test Net speed
 
 Package: luci-app-packagesync
-Version: 20231112
+Version: 20231117
 Depends: libc, blockd, curl, getopt, rsync, bash, jsonfilter, ncat-full
 Section: luci
 Architecture: all
-Installed-Size: 10640
-Filename: luci-app-packagesync_20231112_all.ipk
+Installed-Size: 10641
+Filename: luci-app-packagesync_20231117_all.ipk
 Size: 11575
-SHA256sum: cc6fbb4e877c0c1b950eb95e4f44e663ff5a2286f24f256fa80b8ebbcaf530a5
+SHA256sum: 93c13e19a02fd8e39f85f41bca9d453ef5f113dc9b8151c58699a95882ef5945
 Description:  Used to build a local mirror feeds source on the router
 
 Package: luci-app-pcap-dnsproxy
@@ -218,14 +218,14 @@ SHA256sum: 5abe9702ed68ff4d27ac1a482ea969067d35e14f301156e65e96140f14f03dc2
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-tinyfilemanager
-Version: 2.5.3-20231028
+Version: 2.5.3-20231117
 Depends: libc, php8, php8-cgi, php8-fastcgi, php8-fpm, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, coreutils-stat, zoneinfo-asia, bash, curl, tar
 Section: luci
 Architecture: all
-Installed-Size: 1216864
-Filename: luci-app-tinyfilemanager_2.5.3-20231028_all.ipk
-Size: 1218329
-SHA256sum: 519b8cd9e4decc0ad5fba78b67b64ac38e6a3e51f592cddd0cde609ef0763062
+Installed-Size: 1216870
+Filename: luci-app-tinyfilemanager_2.5.3-20231117_all.ipk
+Size: 1218331
+SHA256sum: 4ce70c0fef378711642d74df7ba6d227219c6db9bda0a60445adde8058f3c476
 Description:  A Web based File Manager in PHP
 
 Package: luci-app-tn-netports
@@ -708,47 +708,47 @@ SHA256sum: 6f314d8b07776ccc167f1a955e73045207241b5f5184acafe807919cabcae482
 Description:  Translation for luci-app-netdata - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-netspeedtest-zh-cn
-Version: git-23.301.41349-2f882ac
+Version: git-23.322.14003-18eeca4
 Depends: libc, luci-app-netspeedtest
 Section: luci
 Architecture: all
-Installed-Size: 1218
-Filename: luci-i18n-netspeedtest-zh-cn_git-23.301.41349-2f882ac_all.ipk
-Size: 2053
-SHA256sum: 116bfdb807812e0e4d631b86af455fb520a0f6eef13477e510c02bba31076794
+Installed-Size: 1216
+Filename: luci-i18n-netspeedtest-zh-cn_git-23.322.14003-18eeca4_all.ipk
+Size: 2050
+SHA256sum: 0d59e1c9a1a53df4ecff26afbbd0b98ae8b634f694c7a9e6fb7615b00ba92d1d
 Description:  Translation for luci-app-netspeedtest - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-netspeedtest-zh-tw
-Version: git-23.301.41349-2f882ac
+Version: git-23.322.14003-18eeca4
 Depends: libc, luci-app-netspeedtest
 Section: luci
 Architecture: all
-Installed-Size: 1225
-Filename: luci-i18n-netspeedtest-zh-tw_git-23.301.41349-2f882ac_all.ipk
-Size: 2055
-SHA256sum: da45f60c212aa87e0014b1c6eed2e60218a92f8be3be22d61c1618efb66cae4c
+Installed-Size: 1223
+Filename: luci-i18n-netspeedtest-zh-tw_git-23.322.14003-18eeca4_all.ipk
+Size: 2052
+SHA256sum: 2dd278c5398dff97b995e01aece3796b2265eacefb22ebc1b837951edcc1f1a9
 Description:  Translation for luci-app-netspeedtest - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-packagesync-zh-cn
-Version: git-23.316.38328-c4b1fd0
+Version: git-23.321.51903-ff01b25
 Depends: libc, luci-app-packagesync
 Section: luci
 Architecture: all
-Installed-Size: 1470
-Filename: luci-i18n-packagesync-zh-cn_git-23.316.38328-c4b1fd0_all.ipk
-Size: 2310
-SHA256sum: 3d9f6a9daf39f936d3b11db5f1a7df5cf8c490d5847725b96c700f89e91e64b2
+Installed-Size: 1471
+Filename: luci-i18n-packagesync-zh-cn_git-23.321.51903-ff01b25_all.ipk
+Size: 2313
+SHA256sum: 16978c10aac598ddd0c96bb4492fc88ae1db3c961687d3551d3a4b38185b75aa
 Description:  Translation for luci-app-packagesync - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-packagesync-zh-tw
-Version: git-23.316.38328-c4b1fd0
+Version: git-23.321.51903-ff01b25
 Depends: libc, luci-app-packagesync
 Section: luci
 Architecture: all
-Installed-Size: 1480
-Filename: luci-i18n-packagesync-zh-tw_git-23.316.38328-c4b1fd0_all.ipk
-Size: 2319
-SHA256sum: e3356bf6af38e8405003a029fadb7c6039324c1fd42f138760acf98c9f34b55a
+Installed-Size: 1481
+Filename: luci-i18n-packagesync-zh-tw_git-23.321.51903-ff01b25_all.ipk
+Size: 2323
+SHA256sum: 7562e6ac6f70bb0fbaa25769f7e4998ecbfec52c8bf572085ad6ff2cb03c15fe
 Description:  Translation for luci-app-packagesync - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-pcap-dnsproxy-zh-cn
@@ -786,25 +786,25 @@ SHA256sum: 3385c82a711544b8a79230f8e0a39d6e77d19a01b873d3be202977fdf5233bfe
 Description:  Translation for luci-app-temp-status - Русский (Russian)
 
 Package: luci-i18n-tinyfilemanager-zh-cn
-Version: git-23.301.41200-2cdfaee
+Version: git-23.321.52695-8d7dab9
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
-Installed-Size: 1153
-Filename: luci-i18n-tinyfilemanager-zh-cn_git-23.301.41200-2cdfaee_all.ipk
-Size: 1990
-SHA256sum: 7ad54a6e3d51790949cd561b33e1d184895e26b6c4872ece11e1e80f0abf92e3
+Installed-Size: 1154
+Filename: luci-i18n-tinyfilemanager-zh-cn_git-23.321.52695-8d7dab9_all.ipk
+Size: 1984
+SHA256sum: df5f278b1d10c5987e063684375beda156b31f33938284f37c96e1e5295fe8a2
 Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-tw
-Version: git-23.301.41200-2cdfaee
+Version: git-23.321.52695-8d7dab9
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
 Installed-Size: 1166
-Filename: luci-i18n-tinyfilemanager-zh-tw_git-23.301.41200-2cdfaee_all.ipk
-Size: 2002
-SHA256sum: 048981936daa52c985d5252c01a669fedc50c64dfda2b464cf3cff7745bfd84d
+Filename: luci-i18n-tinyfilemanager-zh-tw_git-23.321.52695-8d7dab9_all.ipk
+Size: 1999
+SHA256sum: cafc97fb98972daff76d78515998fc3d092408e76a5790cba8ea2cb56e7f687c
 Description:  Translation for luci-app-tinyfilemanager - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tn-netports-ru
@@ -845,9 +845,9 @@ Version: 2.3.1
 Depends: libc, curl, jsonfilter
 Section: luci
 Architecture: all
-Installed-Size: 388571
+Installed-Size: 388574
 Filename: luci-theme-argon_2.3.1_all.ipk
-Size: 389165
-SHA256sum: b20735472705bf51f98e5e3b6ec8b6b1a2b4f1c5ce96dd27a7001aeab5a07751
+Size: 389157
+SHA256sum: b14610221bb9c2699c66abbf22d4f15cca538511cb1bdab466e3ba4c99945965
 Description:  Argon Theme
 
