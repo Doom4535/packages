@@ -236,10 +236,10 @@ Depends: libc, luci-nginx
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 365
+Installed-Size: 366
 Filename: plain-nginx_20231028_all.ipk
-Size: 1162
-SHA256sum: 65198fba0b1529f1bd90f259318472bc5b868008a79d46bb0aa8b75136fcd0ca
+Size: 1163
+SHA256sum: 6c7a0ce338cd97c873bf153f7b951e4c61f64efdbdcfc8593e332ec50a48b36c
 Description:  Read text document directly
 
 Package: rgmac

@@ -328,13 +328,13 @@ SourceName: plain-nginx
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1700281075
+SourceDateEpoch: 1700364521
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: all
-Installed-Size: 367
+Installed-Size: 366
 Filename: plain-nginx_20231028_all.ipk
-Size: 1161
-SHA256sum: e311105905b177a37af0932bb9518871ca359b877b2e2eb7920903a906adf63e
+Size: 1157
+SHA256sum: ebddbc96d2df501efef1913f99134123643be856536070e920e217fd7d3d8899
 Description:  Read text document directly
 
 Package: rgmac
