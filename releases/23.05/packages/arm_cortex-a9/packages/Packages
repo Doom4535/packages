@@ -238,8 +238,8 @@ Section: net
 Architecture: all
 Installed-Size: 366
 Filename: plain-nginx_20231028_all.ipk
-Size: 1163
-SHA256sum: 6c7a0ce338cd97c873bf153f7b951e4c61f64efdbdcfc8593e332ec50a48b36c
+Size: 1158
+SHA256sum: b5ea7c5f0f99d00753d4e115b8120116424cbf5d312cebd87be6742e30a42f19
 Description:  Read text document directly
 
 Package: rgmac
