@@ -27,10 +27,10 @@ Require-User: alwaysonline:alwaysonline
 SourceDateEpoch: 1693652247
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1854994
+Installed-Size: 1854993
 Filename: alwaysonline_1.2.0-20230824_aarch64_cortex-a53.ipk
-Size: 1850714
-SHA256sum: 9e084e353fc73630b0d31205c7b829601bef37148857ad9e1c40f68bd3331f3a
+Size: 1850731
+SHA256sum: 3b8bd1b463f82c4a3eabffe10e80f40234c6f5f17e9ed65d6b290084426e3b49
 Description:  AlwaysOnline is a HTTP and DNS server which mocks a lot network/internet/portal detection servers.
 
 Package: chinadns-ng
@@ -61,10 +61,10 @@ Section: net
 SourceDateEpoch: 1694242942
 Maintainer: muink <hukk1996@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 828596
+Installed-Size: 828603
 Filename: go-stun_0.1.4-9_aarch64_cortex-a53.ipk
-Size: 827670
-SHA256sum: 92850fbed59d820c9c11de455004340fd6af3cb62e8c8584fe32149e2a586b84
+Size: 827683
+SHA256sum: 2fb78cf5750050a559f807c7ceea860ebf7a98b7ad39c488a8fbfbe145c601a5
 Description:  go-stun is a STUN (RFC 3489, 5389) client implementation in golang (a.k.a. UDP hole punching).
  RFC 3489: STUN - Simple Traversal of User Datagram Protocol (UDP) Through Network Address Translators (NATs)
  RFC 5389: Session Traversal Utilities for NAT (STUN)
